@@ -715,3 +715,454 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2023-03-18 11:17:33.190 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.DeletePlayerOfInterest (FootballTeamInfo.API)'
 2023-03-18 11:17:33.191 +00:00 [DBG] Connection id "0HMP7K9C92IE2" completed keep alive response.
 2023-03-18 11:17:33.193 +00:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7153/api/footballTeam/1/playersofinterest/21 - - - 204 - - 84.9405ms
+2023-03-18 13:07:54.616 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 13:07:55.039 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-18 13:07:55.104 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-18 13:07:55.105 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-18 13:07:55.157 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-18 13:09:08.864 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 13:09:09.246 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-18 13:09:09.303 +00:00 [DBG] Migrating using database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.308 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.315 +00:00 [DBG] An error occurred using the connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.316 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.316 +00:00 [DBG] An error occurred using the connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.316 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.320 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.326 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:09:09.330 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-03-18 13:09:09.335 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-03-18 13:09:09.357 +00:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-03-18 13:09:09.358 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.360 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.410 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-18 13:09:09.412 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-18 13:09:09.429 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:09:09.429 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:09:09.429 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.429 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.429 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-03-18 13:09:09.438 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-03-18 13:09:09.438 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.438 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.439 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.439 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.443 +00:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-18 13:09:09.443 +00:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-03-18 13:09:09.443 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.443 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.444 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 13:09:09.445 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 13:09:09.445 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.445 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.446 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-18 13:09:09.446 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-18 13:09:09.446 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.446 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.446 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-18 13:09:09.447 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-18 13:09:09.448 +00:00 [DBG] A data reader was disposed.
+2023-03-18 13:09:09.448 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.448 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.517 +00:00 [INF] Applying migration '20230318130755_FootballTeamInfoinitialMigration'.
+2023-03-18 13:09:09.533 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.534 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.535 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-18 13:09:09.536 +00:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-18 13:09:09.537 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:09:09.537 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:09:09.537 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "FootballTeams" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_FootballTeams" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2023-03-18 13:09:09.537 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "FootballTeams" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_FootballTeams" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2023-03-18 13:09:09.537 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:09:09.537 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:09:09.537 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PlayerOfInterests" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PlayerOfInterests" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PlayerOfInterests_FootballTeams_CityId" FOREIGN KEY ("CityId") REFERENCES "FootballTeams" ("Id") ON DELETE CASCADE
+);
+2023-03-18 13:09:09.537 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PlayerOfInterests" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PlayerOfInterests" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PlayerOfInterests_FootballTeams_CityId" FOREIGN KEY ("CityId") REFERENCES "FootballTeams" ("Id") ON DELETE CASCADE
+);
+2023-03-18 13:09:09.537 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:09:09.537 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:09:09.537 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PlayerOfInterests_CityId" ON "PlayerOfInterests" ("CityId");
+2023-03-18 13:09:09.537 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PlayerOfInterests_CityId" ON "PlayerOfInterests" ("CityId");
+2023-03-18 13:09:09.537 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:09:09.537 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:09:09.537 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230318130755_FootballTeamInfoinitialMigration', '6.0.0');
+2023-03-18 13:09:09.537 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230318130755_FootballTeamInfoinitialMigration', '6.0.0');
+2023-03-18 13:09:09.538 +00:00 [DBG] Committing transaction.
+2023-03-18 13:09:09.541 +00:00 [DBG] Committed transaction.
+2023-03-18 13:09:09.542 +00:00 [DBG] Disposing transaction.
+2023-03-18 13:09:09.542 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:09:09.542 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:09:09.543 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-18 13:14:23.724 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 13:14:24.102 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-18 13:14:24.166 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-18 13:14:24.168 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-18 13:14:24.168 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-18 13:14:24.168 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-18 13:14:24.172 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-18 13:14:24.172 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-18 13:14:24.172 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-18 13:14:24.172 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-18 13:14:24.209 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-18 13:15:00.791 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 13:15:01.201 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-18 13:15:01.228 +00:00 [DBG] Migrating using database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.232 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.240 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:15:01.250 +00:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-18 13:15:01.255 +00:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2023-03-18 13:15:01.256 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.258 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:15:01.262 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 13:15:01.273 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 13:15:01.275 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:15:01.277 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.277 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.278 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:15:01.278 +00:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-18 13:15:01.278 +00:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-03-18 13:15:01.278 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.278 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:15:01.278 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 13:15:01.278 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 13:15:01.278 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:15:01.278 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.287 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-18 13:15:01.287 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-18 13:15:01.287 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.287 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:15:01.288 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-18 13:15:01.288 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-18 13:15:01.289 +00:00 [DBG] A data reader was disposed.
+2023-03-18 13:15:01.289 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:15:01.289 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.296 +00:00 [INF] Applying migration '20230318131424_FootballTeamInfoDBAddPlayerOfInterestDescriptio'.
+2023-03-18 13:15:01.321 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.321 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:15:01.322 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-18 13:15:01.324 +00:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-18 13:15:01.324 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:15:01.324 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:15:01.325 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PlayerOfInterests" ADD "Description" TEXT NOT NULL DEFAULT '';
+2023-03-18 13:15:01.325 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PlayerOfInterests" ADD "Description" TEXT NOT NULL DEFAULT '';
+2023-03-18 13:15:01.325 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:15:01.325 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:15:01.325 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230318131424_FootballTeamInfoDBAddPlayerOfInterestDescriptio', '6.0.0');
+2023-03-18 13:15:01.325 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230318131424_FootballTeamInfoDBAddPlayerOfInterestDescriptio', '6.0.0');
+2023-03-18 13:15:01.326 +00:00 [DBG] Committing transaction.
+2023-03-18 13:15:01.333 +00:00 [DBG] Committed transaction.
+2023-03-18 13:15:01.334 +00:00 [DBG] Disposing transaction.
+2023-03-18 13:15:01.334 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:15:01.334 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:15:01.335 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-18 13:32:36.933 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 13:33:01.517 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 13:33:01.893 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-18 13:33:01.970 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'FootballTeam' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:01.971 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'FootballTeam' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:01.971 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'FootballTeam' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:01.971 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'FootballTeam' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:01.981 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:01.982 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:01.982 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:01.982 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:01.995 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-18 13:33:01.996 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-18 13:33:01.996 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-18 13:33:01.999 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-18 13:33:02.027 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'FootballTeam' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.027 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'FootballTeam' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.027 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'FootballTeam' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.027 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'FootballTeam' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.027 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.027 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.027 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.027 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.031 +00:00 [DBG] An entity of type 'FootballTeam' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.034 +00:00 [DBG] An entity of type 'FootballTeam' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.034 +00:00 [DBG] An entity of type 'FootballTeam' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.034 +00:00 [DBG] An entity of type 'FootballTeam' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.034 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.034 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.034 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.034 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 13:33:02.034 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-18 13:33:02.034 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-18 13:33:02.039 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-18 13:33:02.039 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-18 13:33:02.080 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-18 13:33:23.628 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 13:33:24.028 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-18 13:33:24.057 +00:00 [DBG] Migrating using database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:24.060 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:24.067 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:33:24.077 +00:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-18 13:33:24.082 +00:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2023-03-18 13:33:24.083 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:24.085 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:33:24.089 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 13:33:24.101 +00:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 13:33:24.102 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:33:24.104 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:24.105 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:24.105 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:33:24.105 +00:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-18 13:33:24.105 +00:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-03-18 13:33:24.105 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:24.105 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:33:24.105 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 13:33:24.105 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 13:33:24.105 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:33:24.105 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:24.113 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-18 13:33:24.113 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-18 13:33:24.113 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:24.113 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:33:24.113 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-18 13:33:24.114 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-18 13:33:24.115 +00:00 [DBG] A data reader was disposed.
+2023-03-18 13:33:24.115 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:33:24.115 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:24.122 +00:00 [INF] Applying migration '20230318133302_DataSeedAndUpdateToPlayerOfInterestTable'.
+2023-03-18 13:33:24.148 +00:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'PlayerOfInterests' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2023-03-18 13:33:24.148 +00:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'PlayerOfInterests' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2023-03-18 13:33:24.148 +00:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'PlayerOfInterests' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2023-03-18 13:33:24.174 +00:00 [WRN] An operation of type 'InsertDataOperation' will be attempted while a rebuild of table 'PlayerOfInterests' is pending. The database may not be in an expected state. Review the SQL generated by this migration to help diagnose any failures. Consider moving these operations to a subsequent migration.
+2023-03-18 13:33:24.191 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:24.191 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:33:24.192 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-18 13:33:24.194 +00:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-18 13:33:24.194 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:24.194 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:24.195 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PlayerOfInterests" RENAME COLUMN "CityId" TO "FootballTeamId";
+2023-03-18 13:33:24.195 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PlayerOfInterests" RENAME COLUMN "CityId" TO "FootballTeamId";
+2023-03-18 13:33:24.195 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:24.195 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:24.195 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP INDEX "IX_PlayerOfInterests_CityId";
+2023-03-18 13:33:24.195 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP INDEX "IX_PlayerOfInterests_CityId";
+2023-03-18 13:33:24.195 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:24.195 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:24.195 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PlayerOfInterests_FootballTeamId" ON "PlayerOfInterests" ("FootballTeamId");
+2023-03-18 13:33:24.196 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PlayerOfInterests_FootballTeamId" ON "PlayerOfInterests" ("FootballTeamId");
+2023-03-18 13:33:24.196 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:24.196 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:24.196 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "FootballTeams" ("Id", "Description", "Name")
+VALUES (1, 'Arsenal Football Club is an English professional football club based in Islington, London. Arsenal plays in the Premier League, the top flight of English football.', 'Arsenal');
+2023-03-18 13:33:24.196 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "FootballTeams" ("Id", "Description", "Name")
+VALUES (1, 'Arsenal Football Club is an English professional football club based in Islington, London. Arsenal plays in the Premier League, the top flight of English football.', 'Arsenal');
+2023-03-18 13:33:24.196 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:24.196 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:24.196 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "FootballTeams" ("Id", "Description", "Name")
+VALUES (2, 'Futbol Club Barcelona, commonly referred to as Barcelona and colloquially known as Barça, is a professional football club based in Barcelona, Catalonia, Spain, that competes in La Liga, the top flight of Spanish football.', 'Barcelona');
+2023-03-18 13:33:24.196 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "FootballTeams" ("Id", "Description", "Name")
+VALUES (2, 'Futbol Club Barcelona, commonly referred to as Barcelona and colloquially known as Barça, is a professional football club based in Barcelona, Catalonia, Spain, that competes in La Liga, the top flight of Spanish football.', 'Barcelona');
+2023-03-18 13:33:24.196 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:24.196 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:24.196 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "FootballTeams" ("Id", "Description", "Name")
+VALUES (3, 'Real Madrid Club de Fútbol, commonly referred to as Real Madrid, is a Spanish professional football club based in Madrid. Founded in 1902 as Madrid Football Club, the club has traditionally worn a white home kit since its inception.', 'Real Madrid');
+2023-03-18 13:33:25.558 +00:00 [INF] Executed DbCommand (1,363ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "FootballTeams" ("Id", "Description", "Name")
+VALUES (3, 'Real Madrid Club de Fútbol, commonly referred to as Real Madrid, is a Spanish professional football club based in Madrid. Founded in 1902 as Madrid Football Club, the club has traditionally worn a white home kit since its inception.', 'Real Madrid');
+2023-03-18 13:33:25.559 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:25.559 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:25.559 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "FootballTeams" ("Id", "Description", "Name")
+VALUES (4, 'Liverpool Football Club is a professional football club based in Liverpool, England. The club competes in the Premier League, the top tier of English football. Founded in 1892, the club joined the Football League the following year and has played its home games at Anfield since its formation.', 'Liverpool');
+2023-03-18 13:33:25.559 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "FootballTeams" ("Id", "Description", "Name")
+VALUES (4, 'Liverpool Football Club is a professional football club based in Liverpool, England. The club competes in the Premier League, the top tier of English football. Founded in 1892, the club joined the Football League the following year and has played its home games at Anfield since its formation.', 'Liverpool');
+2023-03-18 13:33:25.559 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:25.559 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:25.559 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PlayerOfInterests" ("Id", "Description", "FootballTeamId", "Name")
+VALUES (1, 'Record goal Scorer', 1, 'Thierry Henry');
+2023-03-18 13:33:25.559 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PlayerOfInterests" ("Id", "Description", "FootballTeamId", "Name")
+VALUES (1, 'Record goal Scorer', 1, 'Thierry Henry');
+2023-03-18 13:33:25.559 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:25.559 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:25.559 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PlayerOfInterests" ("Id", "Description", "FootballTeamId", "Name")
+VALUES (2, 'Best football player ever', 2, 'Lionel Messi');
+2023-03-18 13:33:25.559 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PlayerOfInterests" ("Id", "Description", "FootballTeamId", "Name")
+VALUES (2, 'Best football player ever', 2, 'Lionel Messi');
+2023-03-18 13:33:25.559 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:25.559 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:25.559 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PlayerOfInterests" ("Id", "Description", "FootballTeamId", "Name")
+VALUES (3, 'Best player in club history', 3, 'Cristiano Ronaldo');
+2023-03-18 13:33:25.559 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PlayerOfInterests" ("Id", "Description", "FootballTeamId", "Name")
+VALUES (3, 'Best player in club history', 3, 'Cristiano Ronaldo');
+2023-03-18 13:33:25.559 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:25.559 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:25.559 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PlayerOfInterests" ("Id", "Description", "FootballTeamId", "Name")
+VALUES (4, 'One of the best players in club history', 4, 'Steven Gerrard');
+2023-03-18 13:33:25.559 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PlayerOfInterests" ("Id", "Description", "FootballTeamId", "Name")
+VALUES (4, 'One of the best players in club history', 4, 'Steven Gerrard');
+2023-03-18 13:33:27.078 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:27.078 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:27.079 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_PlayerOfInterests" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PlayerOfInterests" PRIMARY KEY AUTOINCREMENT,
+    "Description" TEXT NOT NULL,
+    "FootballTeamId" INTEGER NOT NULL,
+    "Name" TEXT NOT NULL,
+    CONSTRAINT "FK_PlayerOfInterests_FootballTeams_FootballTeamId" FOREIGN KEY ("FootballTeamId") REFERENCES "FootballTeams" ("Id") ON DELETE CASCADE
+);
+2023-03-18 13:33:27.079 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_PlayerOfInterests" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PlayerOfInterests" PRIMARY KEY AUTOINCREMENT,
+    "Description" TEXT NOT NULL,
+    "FootballTeamId" INTEGER NOT NULL,
+    "Name" TEXT NOT NULL,
+    CONSTRAINT "FK_PlayerOfInterests_FootballTeams_FootballTeamId" FOREIGN KEY ("FootballTeamId") REFERENCES "FootballTeams" ("Id") ON DELETE CASCADE
+);
+2023-03-18 13:33:27.079 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:27.079 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:27.079 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_PlayerOfInterests" ("Id", "Description", "FootballTeamId", "Name")
+SELECT "Id", "Description", "FootballTeamId", "Name"
+FROM "PlayerOfInterests";
+2023-03-18 13:33:27.079 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_PlayerOfInterests" ("Id", "Description", "FootballTeamId", "Name")
+SELECT "Id", "Description", "FootballTeamId", "Name"
+FROM "PlayerOfInterests";
+2023-03-18 13:33:27.080 +00:00 [DBG] Committing transaction.
+2023-03-18 13:33:27.088 +00:00 [DBG] Committed transaction.
+2023-03-18 13:33:27.089 +00:00 [DBG] Disposing transaction.
+2023-03-18 13:33:27.089 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:27.089 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:27.089 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2023-03-18 13:33:27.089 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2023-03-18 13:33:27.089 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-18 13:33:27.089 +00:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-18 13:33:27.089 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:27.089 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:27.089 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "PlayerOfInterests";
+2023-03-18 13:33:27.090 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "PlayerOfInterests";
+2023-03-18 13:33:27.090 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:27.090 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:27.090 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_PlayerOfInterests" RENAME TO "PlayerOfInterests";
+2023-03-18 13:33:27.090 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_PlayerOfInterests" RENAME TO "PlayerOfInterests";
+2023-03-18 13:33:27.090 +00:00 [DBG] Committing transaction.
+2023-03-18 13:33:27.092 +00:00 [DBG] Committed transaction.
+2023-03-18 13:33:27.092 +00:00 [DBG] Disposing transaction.
+2023-03-18 13:33:27.092 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:27.092 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:27.092 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2023-03-18 13:33:27.093 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2023-03-18 13:33:27.093 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-18 13:33:27.093 +00:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-18 13:33:27.093 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:27.093 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:28.523 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PlayerOfInterests_FootballTeamId" ON "PlayerOfInterests" ("FootballTeamId");
+2023-03-18 13:33:28.523 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PlayerOfInterests_FootballTeamId" ON "PlayerOfInterests" ("FootballTeamId");
+2023-03-18 13:33:28.523 +00:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 13:33:28.523 +00:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 13:33:28.523 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230318133302_DataSeedAndUpdateToPlayerOfInterestTable', '6.0.0');
+2023-03-18 13:33:28.523 +00:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230318133302_DataSeedAndUpdateToPlayerOfInterestTable', '6.0.0');
+2023-03-18 13:33:28.523 +00:00 [DBG] Committing transaction.
+2023-03-18 13:33:28.527 +00:00 [DBG] Committed transaction.
+2023-03-18 13:33:28.527 +00:00 [DBG] Disposing transaction.
+2023-03-18 13:33:28.527 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-18 13:33:28.527 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-18 13:33:28.528 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.

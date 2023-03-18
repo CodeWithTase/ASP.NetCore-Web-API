@@ -1,6 +1,8 @@
 using FootballTeamInfo.API;
+using FootballTeamInfo.API.DbContexts;
 using FootballTeamInfo.API.Services;
 using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo.Console()
@@ -19,6 +21,11 @@ builder.Services.AddControllers( options => { options.ReturnHttpNotAcceptable = 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
+
+//Add database context
+builder.Services.AddDbContext<FootbalTeamInfoContext>(
+    dbContextOptionx => dbContextOptionx.UseSqlite(
+        builder.Configuration["ConnectionStrings:FootballTeamInfoConnectionStrings"]));
 
 //add mail service
 #if DEBUG
