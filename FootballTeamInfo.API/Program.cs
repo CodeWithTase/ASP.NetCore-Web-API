@@ -22,6 +22,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 
+//Add auotmapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 //Add database context
 builder.Services.AddDbContext<FootbalTeamInfoContext>(
     dbContextOptionx => dbContextOptionx.UseSqlite(
@@ -36,6 +39,9 @@ builder.Services.AddTransient<IMailService, CloudMailService>();
 
 //add datastore
 builder.Services.AddSingleton(new FootballTeamDataStore());
+
+//add repository
+builder.Services.AddScoped<IFootballTeamInfoRepository, FootballTeamInfoRepository>();
 
 var app = builder.Build();
 

@@ -6,14 +6,14 @@
         public string Name { get; set; } = string.Empty;
         public string? Description { get; set; }
 
-        public int NumberOfPlayersOfInterest
+        public int NumberOfPlayerOfInterests
         {
             get
             {
-                return PlayersOfInterests.Count();
+                return PlayersOfInterest.Count();
             }
         }
 
-        public ICollection<PlayerOfInterestDto> PlayersOfInterests { get; set; } = new List<PlayerOfInterestDto>();
+        public ICollection<PlayerOfInterestDto> PlayersOfInterest { get; set; } = new List<PlayerOfInterestDto>();
     }
 }

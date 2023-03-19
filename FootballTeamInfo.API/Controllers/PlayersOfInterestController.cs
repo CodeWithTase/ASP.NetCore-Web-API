@@ -1,4 +1,6 @@
-﻿using FootballTeamInfo.API.Models;
+﻿using AutoMapper;
+using FootballTeamInfo.API.Entities;
+using FootballTeamInfo.API.Models;
 using FootballTeamInfo.API.Services;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -11,50 +13,59 @@ namespace FootballTeamInfo.API.Controllers
     {
         private readonly ILogger<PlayersOfInterestController> _logger;
         private readonly IMailService _mailService;
-        private readonly FootballTeamDataStore _footballTeamDataStore;
+        private readonly IFootballTeamInfoRepository _footballTeamInfoRepository;
+        private readonly IMapper _mapper;
 
         public PlayersOfInterestController(ILogger<PlayersOfInterestController> logger, 
-            IMailService mailService,
-            FootballTeamDataStore footballTeamDataStore)
+            IMailService mailService, 
+            IFootballTeamInfoRepository footballTeamInfoRepository,
+            IMapper mapper)
         {
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _mailService = mailService ?? throw new ArgumentNullException(nameof(mailService));
-            _footballTeamDataStore = footballTeamDataStore;
+            _logger = logger ?? 
+                throw new ArgumentNullException(nameof(logger));
+            _mailService = mailService ?? 
+                throw new ArgumentNullException(nameof(mailService));
+            _footballTeamInfoRepository = footballTeamInfoRepository ?? 
+                throw new ArgumentNullException(nameof(footballTeamInfoRepository));
+            _mapper = mapper ?? 
+                throw new ArgumentNullException(nameof(mapper));
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<PlayerOfInterestDto>> GetPlayersOfInterest(int footbalTeamId)
+        public async Task<ActionResult<IEnumerable<PlayerOfInterestDto>>> GetPlayersOfInterest(int footballTeamId)
         {
-            var footballTeam = _footballTeamDataStore.FootballTeams.FirstOrDefault(footballTeams =>
-            footballTeams.ID == footbalTeamId);
+            if (!await _footballTeamInfoRepository.FootballTeamExistsAsync(footballTeamId))
+            {
+                _logger.LogInformation($"The football team with Id {footballTeamId} was not found");
+                return NotFound();
+            }
+            var playersOfinterestForFootballTeam = await _footballTeamInfoRepository.GetPlayersOfInterestAsync(footballTeamId);
 
-            if (footballTeam == null) return NotFound();
-
-            return Ok(footballTeam.PlayersOfInterests);
+            return Ok(_mapper.Map<IEnumerable<PlayerOfInterestDto>> (playersOfinterestForFootballTeam));
         }
 
         [HttpGet("{playerOfInterestId}", Name = "GetPlayerOfInterest")]
-        public ActionResult<PlayerOfInterestDto> GetPlayerOfInterest(int footballTeamId, int playerOfInterestId)
+        public async Task<ActionResult<PlayerOfInterestDto>> GetPlayerOfInterest(int footballTeamId, int playerOfInterestId)
         {
             try
             {
                 //testing Serilog
                 //throw new Exception("An exception");
-                var footballTeam = _footballTeamDataStore.FootballTeams.FirstOrDefault(footballTeams =>
-                    footballTeams.ID == footballTeamId);
 
-                if (footballTeam == null)
+                if (!await _footballTeamInfoRepository.FootballTeamExistsAsync(footballTeamId))
                 {
                     _logger.LogInformation($"Football team with ID: {footballTeamId} was not found when trying to access players of interest.");
                     return NotFound();
                 }
 
-                var playerOfInterest = footballTeam.PlayersOfInterests.FirstOrDefault(playerOfInterest =>
-                playerOfInterest.ID == playerOfInterestId);
+                var playerOfInterest = await _footballTeamInfoRepository.GetPlayerOfInterestAsync(footballTeamId, playerOfInterestId);
 
-                if (playerOfInterest == null) return NotFound();
+                if (playerOfInterest == null)
+                {
+                    return NotFound();
+                }
 
-                return Ok(playerOfInterest);
+                return Ok(_mapper.Map<PlayerOfInterestDto>(playerOfInterest));
             }
             catch (Exception ex)
             {
@@ -65,70 +76,69 @@ namespace FootballTeamInfo.API.Controllers
         }
 
         [HttpPost]
-        public ActionResult<PlayerOfInterestDto> CreatePlayerOfInterest(int footballTeamId, PlayerOfInterestCreationDto playerOfInterest)
+        public async Task<ActionResult<PlayerOfInterestDto>> CreatePlayerOfInterest(int footballTeamId, PlayerOfInterestCreationDto playerOfInterest)
         {
-            var footballTeam = _footballTeamDataStore.FootballTeams.
-                               FirstOrDefault(footballTeams => footballTeams.ID == footballTeamId);
-
-            if (footballTeam == null) return NotFound();
-
-            //temp training code will be improved
-            var maxPointOfInterestId = _footballTeamDataStore.FootballTeams.SelectMany(
-                                       footballTeams => footballTeams.PlayersOfInterests).
-                                       Max(playerOfInterest => playerOfInterest.ID);
-
-            var newPlayerOfInterest = new PlayerOfInterestDto()
+            if (!await _footballTeamInfoRepository.FootballTeamExistsAsync(footballTeamId))
             {
-                ID = ++maxPointOfInterestId,
-                Name = playerOfInterest.Name,
-                Description = playerOfInterest.Description
-            };
+                return NotFound();
+            }
 
-            footballTeam.PlayersOfInterests.Add(newPlayerOfInterest);
+            var finalPlayerOfInterest = _mapper.Map<PlayerOfInterest>(playerOfInterest);
+
+            await _footballTeamInfoRepository.AddPlayerOfInterestForFootballTeamAsync(footballTeamId, finalPlayerOfInterest);
+
+            await _footballTeamInfoRepository.SaveChangesAsync();
+
+            var createdPlayerOfinterest = _mapper.Map<PlayerOfInterestDto>(finalPlayerOfInterest);
+ 
             return CreatedAtRoute("GetPlayerOfInterest",
                 new
                 {
                     footballTeamId = footballTeamId,
-                    playerOfInterestId = newPlayerOfInterest.ID
-                }, 
-                newPlayerOfInterest);
+                    playerOfInterestId = createdPlayerOfinterest.ID
+                },
+                createdPlayerOfinterest);
         }
 
         [HttpPut("{playerOfInterestId}")]
-        public ActionResult UpdatePlayerOfInterest(int footballTeamId, int playerOfInterestId, PlayerOfInterestupdateDto playerOfInterest)
+        public async Task<ActionResult> UpdatePlayerOfInterest(int footballTeamId, int playerOfInterestId, PlayerOfInterestUpdateDto playerOfInterest)
         {
-            var footballTeam = _footballTeamDataStore.FootballTeams.
-                   FirstOrDefault(footballTeams => footballTeams.ID == footballTeamId);
+            if (!await _footballTeamInfoRepository.FootballTeamExistsAsync(footballTeamId))
+            {
+                return NotFound();
+            }
 
-            if (footballTeam == null) return NotFound();
+            var playerOfinterestEntity = await _footballTeamInfoRepository
+                .GetPlayerOfInterestAsync(footballTeamId, playerOfInterestId);
 
-            var player = footballTeam.PlayersOfInterests.FirstOrDefault(
-                  playerOfInterest => playerOfInterest.ID == playerOfInterestId);
+            if (playerOfinterestEntity == null)
+            {
+                return NotFound();
+            }
 
-            if (player == null) return NotFound();
+            _mapper.Map(playerOfInterest, playerOfinterestEntity);
 
-            player.Name = playerOfInterest.Name;
-            player.Description = playerOfInterest.Description;
+            await _footballTeamInfoRepository.SaveChangesAsync();
 
             return NoContent();
         }
 
         [HttpPatch("{playerOfInterestId}")]
-        public ActionResult PartiallyUpdatePlayerOfInterest(
-            int footballTeamId, int playerOfInterestId, 
-            JsonPatchDocument<PlayerOfInterestupdateDto> patchDocument)
+        public async Task<ActionResult> PartiallyUpdatePlayerOfInterest(
+            int footballTeamId, int playerOfInterestId,
+            JsonPatchDocument<PlayerOfInterestUpdateDto> patchDocument)
         {
-            var footballTeam = _footballTeamDataStore.FootballTeams.
-                   FirstOrDefault(footballTeams => footballTeams.ID == footballTeamId);
+            if (!await _footballTeamInfoRepository.FootballTeamExistsAsync(footballTeamId))
+            {
+                return NotFound();
+            }
 
-            if (footballTeam == null) return NotFound();
+            var playerOfinterestEntity = await _footballTeamInfoRepository
+                .GetPlayerOfInterestAsync(footballTeamId, playerOfInterestId);
 
-            var player = footballTeam.PlayersOfInterests.FirstOrDefault(
-                  playerOfInterest => playerOfInterest.ID == playerOfInterestId);
+            if (playerOfinterestEntity == null) return NotFound();
 
-            if (player == null) return NotFound();
-
-            var playerToPatch = new PlayerOfInterestupdateDto { Name = player.Name, Description = player.Description };
+            var playerToPatch = _mapper.Map<PlayerOfInterestUpdateDto>(playerOfinterestEntity);
 
             patchDocument.ApplyTo(playerToPatch, ModelState);
 
@@ -142,29 +152,33 @@ namespace FootballTeamInfo.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            player.Name = playerToPatch.Name;
-            player.Description = playerToPatch.Description;
+            _mapper.Map(playerToPatch, playerOfinterestEntity);
+
+            await _footballTeamInfoRepository.SaveChangesAsync();
 
             return NoContent();
         }
 
         [HttpDelete("{PlayerOfInterestId}")]
-        public ActionResult DeletePlayerOfInterest(int footballTeamId, int playerOfInterestId)
+        public async Task<ActionResult> DeletePlayerOfInterest(int footballTeamId, int playerOfInterestId)
         {
-            var footballTeam = _footballTeamDataStore.FootballTeams.
-                   FirstOrDefault(footballTeams => footballTeams.ID == footballTeamId);
+            if (!await _footballTeamInfoRepository.FootballTeamExistsAsync(footballTeamId))
+            {
+                return NotFound();
+            }
 
-            if (footballTeam == null) return NotFound();
+            var playerOfinterestEntity = await _footballTeamInfoRepository
+                .GetPlayerOfInterestAsync(footballTeamId, playerOfInterestId);
 
-            var player = footballTeam.PlayersOfInterests.FirstOrDefault(
-                  playerOfInterest => playerOfInterest.ID == playerOfInterestId);
+            if (playerOfinterestEntity == null) return NotFound();
 
-            if (player == null) return NotFound();
+            _footballTeamInfoRepository.DeletPlayerOfInterest(playerOfinterestEntity);
 
-            footballTeam.PlayersOfInterests.Remove(player);
+            await _footballTeamInfoRepository.SaveChangesAsync();
+
             _mailService.Send(
                 "Player of interest was deleted",
-                $"Player of interest {player.Name} with id {player.ID} was deleted.");
+                $"Player of interest {playerOfinterestEntity.Name} with id {playerOfinterestEntity.Id} was deleted.");
 
             return NoContent();
         }

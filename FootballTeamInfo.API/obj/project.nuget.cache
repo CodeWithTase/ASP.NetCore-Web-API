@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "F3t4QwdPWQKBrVEDFYiMJ5ZIZnGqyPt1oHTl9NpJIIV2v5xxkPEl4utNVRhYPY7+QkjXYPJrSVgeZdM7kULzeA==",
+  "dgSpecHash": "8nqmSWkus46UqBwumKMKC2RSVlKh5vbbBI3f0PwdvgwYO9Z4SzcNh0saS4S/JaBeTpZ/0Y+ZT9Vv+DFkTbB9Dg==",
   "success": true,
   "projectFilePath": "C:\\Users\\EruAk\\source\\repos\\FootballTeamInfo\\FootballTeamInfo.API\\FootballTeamInfo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\EruAk\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\EruAk\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.4\\microsoft.aspnetcore.jsonpatch.7.0.4.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.1\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.1.nupkg.sha512",
@@ -57,6 +59,7 @@
     "C:\\Users\\EruAk\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\EruAk\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"

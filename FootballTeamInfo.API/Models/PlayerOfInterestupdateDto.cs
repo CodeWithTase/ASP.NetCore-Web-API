@@ -2,7 +2,7 @@
 
 namespace FootballTeamInfo.API.Models
 {
-    public class PlayerOfInterestupdateDto
+    public class PlayerOfInterestUpdateDto
     {
         [Required(ErrorMessage = "Player name should be provided")]
         [MaxLength(50)]

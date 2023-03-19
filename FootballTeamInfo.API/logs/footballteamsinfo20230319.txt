@@ -1,0 +1,1200 @@
+2023-03-19 13:13:17.365 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-19 13:13:17.451 +00:00 [DBG] Hosting starting
+2023-03-19 13:13:17.632 +00:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 39F81C24FD9DD4F1D856C07C755DF18E7AE3585C)
+2023-03-19 13:13:17.704 +00:00 [INF] Now listening on: https://localhost:7153
+2023-03-19 13:13:17.705 +00:00 [INF] Now listening on: http://localhost:5153
+2023-03-19 13:13:17.706 +00:00 [DBG] Loaded hosting startup assembly FootballTeamInfo.API
+2023-03-19 13:13:17.706 +00:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-19 13:13:17.707 +00:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-19 13:13:17.707 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-19 13:13:17.708 +00:00 [INF] Hosting environment: Development
+2023-03-19 13:13:17.708 +00:00 [INF] Content root path: C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\
+2023-03-19 13:13:17.709 +00:00 [DBG] Hosting started
+2023-03-19 13:13:17.736 +00:00 [DBG] Connection id "0HMP8FEQ7S8UP" accepted.
+2023-03-19 13:13:17.736 +00:00 [DBG] Connection id "0HMP8FEQ7S8UO" accepted.
+2023-03-19 13:13:17.738 +00:00 [DBG] Connection id "0HMP8FEQ7S8UO" started.
+2023-03-19 13:13:17.738 +00:00 [DBG] Connection id "0HMP8FEQ7S8UP" started.
+2023-03-19 13:13:18.088 +00:00 [DBG] Connection id "0HMP8FEQ7S8UQ" accepted.
+2023-03-19 13:13:18.090 +00:00 [DBG] Connection id "0HMP8FEQ7S8UQ" started.
+2023-03-19 13:13:18.167 +00:00 [DBG] Connection 0HMP8FEQ7S8UQ established using the following protocol: "Tls12"
+2023-03-19 13:13:18.229 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-03-19 13:13:18.260 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-19 13:13:18.351 +00:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-19 13:13:18.628 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-03-19 13:13:18.630 +00:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-19 13:13:18.635 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 410.0851ms
+2023-03-19 13:13:18.635 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 6.1277ms
+2023-03-19 13:13:19.344 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-03-19 13:13:19.449 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.1668ms
+2023-03-19 13:13:27.775 +00:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-03-19 13:13:27.775 +00:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-03-19 13:13:27.779 +00:00 [DBG] Connection id "0HMP8FEQ7S8UP" stopped.
+2023-03-19 13:13:27.779 +00:00 [DBG] Connection id "0HMP8FEQ7S8UO" stopped.
+2023-03-19 13:13:27.780 +00:00 [DBG] Connection id "0HMP8FEQ7S8UP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:13:27.780 +00:00 [DBG] Connection id "0HMP8FEQ7S8UO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:13:33.164 +00:00 [DBG] Connection id "0HMP8FEQ7S8UR" accepted.
+2023-03-19 13:13:33.164 +00:00 [DBG] Connection id "0HMP8FEQ7S8UR" received FIN.
+2023-03-19 13:13:33.165 +00:00 [DBG] Connection id "0HMP8FEQ7S8UR" started.
+2023-03-19 13:13:33.168 +00:00 [DBG] Connection id "0HMP8FEQ7S8US" accepted.
+2023-03-19 13:13:33.170 +00:00 [DBG] Connection id "0HMP8FEQ7S8US" started.
+2023-03-19 13:13:33.172 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-19 13:13:33.176 +00:00 [DBG] Connection 0HMP8FEQ7S8US established using the following protocol: "Tls12"
+2023-03-19 13:13:33.217 +00:00 [DBG] Connection id "0HMP8FEQ7S8UR" stopped.
+2023-03-19 13:13:33.219 +00:00 [DBG] Connection id "0HMP8FEQ7S8UR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:13:33.227 +00:00 [INF] Request starting HTTP/1.1 POST https://localhost:7153/api/footballTeam/1/playersofinterest application/json 73
+2023-03-19 13:13:33.230 +00:00 [DBG] POST requests are not supported
+2023-03-19 13:13:33.256 +00:00 [DBG] 1 candidate(s) found for the request path '/api/footballTeam/1/playersofinterest'
+2023-03-19 13:13:33.262 +00:00 [DBG] Endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.CreatePlayerOfInterest (FootballTeamInfo.API)' with route pattern 'api/footballTeam/{footballTeamId}/playersofinterest' is valid for the request path '/api/footballTeam/1/playersofinterest'
+2023-03-19 13:13:33.264 +00:00 [DBG] Request matched endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.CreatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:13:33.267 +00:00 [INF] Executing endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.CreatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:13:33.305 +00:00 [INF] Route matched with {action = "CreatePlayerOfInterest", controller = "PlayersOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FootballTeamInfo.API.Models.PlayerOfInterestDto]] CreatePlayerOfInterest(Int32, FootballTeamInfo.API.Models.PlayerOfInterestCreationDto) on controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API).
+2023-03-19 13:13:33.309 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-19 13:13:33.310 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-19 13:13:33.311 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-19 13:13:33.313 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-19 13:13:33.314 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-19 13:13:33.316 +00:00 [DBG] Executing controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:13:33.492 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-19 13:13:33.814 +00:00 [DBG] Executed controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:13:33.823 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:13:33.826 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' using the name 'footballTeamId' in request data ...
+2023-03-19 13:13:33.828 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:13:33.829 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:13:33.830 +00:00 [DBG] Attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:13:33.834 +00:00 [DBG] Done attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:13:33.837 +00:00 [DBG] Attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestCreationDto' ...
+2023-03-19 13:13:33.840 +00:00 [DBG] Attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestCreationDto' using the name '' in request data ...
+2023-03-19 13:13:33.842 +00:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-19 13:13:33.844 +00:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-19 13:13:33.857 +00:00 [DBG] Connection id "0HMP8FEQ7S8US", Request id "0HMP8FEQ7S8US:00000002": started reading request body.
+2023-03-19 13:13:33.860 +00:00 [DBG] Connection id "0HMP8FEQ7S8US", Request id "0HMP8FEQ7S8US:00000002": done reading request body.
+2023-03-19 13:13:34.020 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestCreationDto'.
+2023-03-19 13:13:34.022 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestCreationDto'.
+2023-03-19 13:13:34.023 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestCreationDto' ...
+2023-03-19 13:13:34.032 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestCreationDto'.
+2023-03-19 13:13:56.406 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-19 13:13:56.481 +00:00 [DBG] Compiling query expression: 
+'DbSet<FootballTeam>()
+    .Any(f => f.Id == __footballTeamId_0)'
+2023-03-19 13:13:56.804 +00:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM FootballTeams AS f
+                WHERE f.Id == @__footballTeamId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        FootballTeamInfo.API.DbContexts.FootbalTeamInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-19 13:13:56.867 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:13:56.956 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (85ms).
+2023-03-19 13:13:56.974 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:13:57.000 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:13:57.022 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:13:57.053 +00:00 [INF] Executed DbCommand (37ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:13:57.067 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:13:57.078 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:13:57.086 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:14:10.325 +00:00 [DBG] Compiling query expression: 
+'DbSet<FootballTeam>()
+    .Where(f => f.Id == __footballTeamId_0)
+    .FirstOrDefault()'
+2023-03-19 13:14:10.366 +00:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<FootballTeam>(
+    asyncEnumerable: new SingleQueryingEnumerable<FootballTeam>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: FootballTeam.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: FootballTeam.Description (string) MaxLength(200), 1], [Property: FootballTeam.Name (string) Required MaxLength(50), 2] }
+            SELECT TOP(1) f.Id, f.Description, f.Name
+            FROM FootballTeams AS f
+            WHERE f.Id == @__footballTeamId_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, FootballTeam>, 
+        FootballTeamInfo.API.DbContexts.FootbalTeamInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-19 13:14:10.383 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:14:10.384 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:14:10.384 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:14:10.386 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:14:10.387 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."Description", "f"."Name"
+FROM "FootballTeams" AS "f"
+WHERE "f"."Id" = @__footballTeamId_0
+LIMIT 1
+2023-03-19 13:14:10.390 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."Description", "f"."Name"
+FROM "FootballTeams" AS "f"
+WHERE "f"."Id" = @__footballTeamId_0
+LIMIT 1
+2023-03-19 13:14:10.407 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'FootballTeam' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:14:10.427 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:14:10.427 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:14:10.428 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:14:10.437 +00:00 [DBG] SaveChanges starting for 'FootbalTeamInfoContext'.
+2023-03-19 13:14:10.441 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-19 13:14:10.461 +00:00 [DBG] 1 entities were added and 0 entities were removed from navigation 'FootballTeam.PlayersOfInterest'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:14:10.491 +00:00 [DBG] 'FootbalTeamInfoContext' generated a temporary value for the property 'Id.PlayerOfInterest'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:14:10.519 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:14:10.523 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-19 13:14:10.545 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:14:10.546 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:14:10.551 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-19 13:14:10.557 +00:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-19 13:14:10.607 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:14:10.608 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-03-19 13:14:10.609 +00:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 17), @p1='?' (DbType = Int32), @p2='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PlayerOfInterests" ("Description", "FootballTeamId", "Name")
+VALUES (@p0, @p1, @p2);
+SELECT "Id"
+FROM "PlayerOfInterests"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2023-03-19 13:14:10.614 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 17), @p1='?' (DbType = Int32), @p2='?' (Size = 14)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PlayerOfInterests" ("Description", "FootballTeamId", "Name")
+VALUES (@p0, @p1, @p2);
+SELECT "Id"
+FROM "PlayerOfInterests"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2023-03-19 13:14:10.642 +00:00 [DBG] The foreign key property 'PlayerOfInterest.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-03-19 13:14:10.648 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:14:10.655 +00:00 [DBG] Committing transaction.
+2023-03-19 13:14:10.665 +00:00 [DBG] Committed transaction.
+2023-03-19 13:14:10.673 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:14:10.674 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:14:10.678 +00:00 [DBG] Disposing transaction.
+2023-03-19 13:14:10.689 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:14:10.692 +00:00 [DBG] SaveChanges completed for 'FootbalTeamInfoContext' with 1 entities written to the database.
+2023-03-19 13:14:38.625 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-19 13:14:38.628 +00:00 [DBG] No information found on request to perform content negotiation.
+2023-03-19 13:14:38.628 +00:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-19 13:14:38.629 +00:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-19 13:14:38.630 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-19 13:14:38.631 +00:00 [INF] Executing CreatedAtRouteResult, writing value of type 'FootballTeamInfo.API.Models.PlayerOfInterestDto'.
+2023-03-19 13:14:38.656 +00:00 [DBG] Found the endpoints ["FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2023-03-19 13:14:38.666 +00:00 [DBG] Successfully processed template api/footballTeam/{footballTeamId}/playersofinterest/{playerOfInterestId} for FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API) resulting in /api/footballTeam/1/playersofinterest/5 and 
+2023-03-19 13:14:38.669 +00:00 [DBG] Link generation succeeded for endpoints ["FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)"] with result /api/footballTeam/1/playersofinterest/5
+2023-03-19 13:14:38.721 +00:00 [INF] Executed action FootballTeamInfo.API.Controllers.PlayersOfInterestController.CreatePlayerOfInterest (FootballTeamInfo.API) in 65401.5479ms
+2023-03-19 13:14:38.724 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.CreatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:14:38.725 +00:00 [DBG] Connection id "0HMP8FEQ7S8US" completed keep alive response.
+2023-03-19 13:14:38.729 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-19 13:14:38.732 +00:00 [INF] Request finished HTTP/1.1 POST https://localhost:7153/api/footballTeam/1/playersofinterest application/json 73 - 201 66 application/json;+charset=utf-8 65505.4046ms
+2023-03-19 13:15:15.240 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/footballTeam/1/playersofinterest/5 - -
+2023-03-19 13:15:15.241 +00:00 [DBG] The request path  does not match the path filter
+2023-03-19 13:15:15.242 +00:00 [DBG] 1 candidate(s) found for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:15:15.242 +00:00 [DBG] Endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)' with route pattern 'api/footballTeam/{footballTeamId}/playersofinterest/{playerOfInterestId}' is valid for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:15:15.243 +00:00 [DBG] Request matched endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:15:15.244 +00:00 [INF] Executing endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:15:15.246 +00:00 [INF] Route matched with {action = "GetPlayerOfInterest", controller = "PlayersOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FootballTeamInfo.API.Models.PlayerOfInterestDto]] GetPlayerOfInterest(Int32, Int32) on controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API).
+2023-03-19 13:15:15.247 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-19 13:15:15.248 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-19 13:15:15.248 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-19 13:15:15.249 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-19 13:15:15.250 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-19 13:15:15.250 +00:00 [DBG] Executing controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:15:15.258 +00:00 [DBG] Executed controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:15:15.263 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:15:15.264 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' using the name 'footballTeamId' in request data ...
+2023-03-19 13:15:15.264 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:15:15.265 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:15:15.265 +00:00 [DBG] Attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:15:15.266 +00:00 [DBG] Done attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:15:15.266 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:15:15.267 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' using the name 'playerOfInterestId' in request data ...
+2023-03-19 13:15:15.268 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:15:15.268 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:15:15.269 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:15:15.269 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:15:15.281 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-19 13:15:15.286 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:15:15.287 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:15:15.288 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:15:15.288 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:15:15.289 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:15:15.290 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:15:15.291 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:15:15.291 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:15:15.292 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:15:15.294 +00:00 [DBG] Compiling query expression: 
+'DbSet<PlayerOfInterest>()
+    .Where(p => p.FootballTeamId == __footballTeamId_0 && p.Id == __playerOfInterestId_1)
+    .FirstOrDefault()'
+2023-03-19 13:15:15.298 +00:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<PlayerOfInterest>(
+    asyncEnumerable: new SingleQueryingEnumerable<PlayerOfInterest>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PlayerOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PlayerOfInterest.Description (string) Required MaxLength(200), 1], [Property: PlayerOfInterest.FootballTeamId (int) Required FK Index, 2], [Property: PlayerOfInterest.Name (string) Required MaxLength(50), 3] }
+            SELECT TOP(1) p.Id, p.Description, p.FootballTeamId, p.Name
+            FROM PlayerOfInterests AS p
+            WHERE (p.FootballTeamId == @__footballTeamId_0) && (p.Id == @__playerOfInterestId_1)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PlayerOfInterest>, 
+        FootballTeamInfo.API.DbContexts.FootbalTeamInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-19 13:15:15.300 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:15:15.300 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:15:15.302 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:15:15.303 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:15:15.304 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:15:15.306 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:15:15.307 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:15:15.307 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:15:15.308 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:15:15.308 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:15:15.309 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-19 13:15:15.310 +00:00 [DBG] No information found on request to perform content negotiation.
+2023-03-19 13:15:15.311 +00:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-19 13:15:15.311 +00:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-19 13:15:15.311 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-19 13:15:15.312 +00:00 [INF] Executing OkObjectResult, writing value of type 'FootballTeamInfo.API.Models.PlayerOfInterestDto'.
+2023-03-19 13:15:15.313 +00:00 [INF] Executed action FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API) in 62.523ms
+2023-03-19 13:15:15.313 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:15:15.314 +00:00 [DBG] Connection id "0HMP8FEQ7S8US" completed keep alive response.
+2023-03-19 13:15:15.314 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-19 13:15:15.315 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/footballTeam/1/playersofinterest/5 - - - 200 66 application/json;+charset=utf-8 75.0962ms
+2023-03-19 13:26:06.361 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-19 13:26:06.446 +00:00 [DBG] Hosting starting
+2023-03-19 13:26:06.573 +00:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 39F81C24FD9DD4F1D856C07C755DF18E7AE3585C)
+2023-03-19 13:26:06.622 +00:00 [INF] Now listening on: https://localhost:7153
+2023-03-19 13:26:06.622 +00:00 [INF] Now listening on: http://localhost:5153
+2023-03-19 13:26:06.623 +00:00 [DBG] Loaded hosting startup assembly FootballTeamInfo.API
+2023-03-19 13:26:06.623 +00:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-19 13:26:06.624 +00:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-19 13:26:06.625 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-19 13:26:06.626 +00:00 [INF] Hosting environment: Development
+2023-03-19 13:26:06.626 +00:00 [INF] Content root path: C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\
+2023-03-19 13:26:06.627 +00:00 [DBG] Hosting started
+2023-03-19 13:26:07.100 +00:00 [DBG] Connection id "0HMP8FLVH5010" received FIN.
+2023-03-19 13:26:07.108 +00:00 [DBG] Connection id "0HMP8FLVH5010" accepted.
+2023-03-19 13:26:07.110 +00:00 [DBG] Connection id "0HMP8FLVH5010" started.
+2023-03-19 13:26:07.125 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-19 13:26:07.154 +00:00 [DBG] Connection id "0HMP8FLVH5010" stopped.
+2023-03-19 13:26:07.158 +00:00 [DBG] Connection id "0HMP8FLVH5010" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:26:07.303 +00:00 [DBG] Connection id "0HMP8FLVH5011" accepted.
+2023-03-19 13:26:07.304 +00:00 [DBG] Connection id "0HMP8FLVH5011" started.
+2023-03-19 13:26:07.352 +00:00 [DBG] Connection 0HMP8FLVH5011 established using the following protocol: "Tls12"
+2023-03-19 13:26:07.408 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-03-19 13:26:07.438 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-19 13:26:07.535 +00:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-19 13:26:07.657 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-03-19 13:26:07.658 +00:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-19 13:26:07.664 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 261.1560ms
+2023-03-19 13:26:07.664 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 7.7993ms
+2023-03-19 13:26:08.427 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-03-19 13:26:08.533 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.5346ms
+2023-03-19 13:26:18.999 +00:00 [DBG] Connection id "0HMP8FLVH5012" accepted.
+2023-03-19 13:26:19.002 +00:00 [DBG] Connection id "0HMP8FLVH5012" received FIN.
+2023-03-19 13:26:19.003 +00:00 [DBG] Connection id "0HMP8FLVH5012" started.
+2023-03-19 13:26:19.003 +00:00 [DBG] Connection id "0HMP8FLVH5013" accepted.
+2023-03-19 13:26:19.005 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-19 13:26:19.005 +00:00 [DBG] Connection id "0HMP8FLVH5013" started.
+2023-03-19 13:26:19.007 +00:00 [DBG] Connection id "0HMP8FLVH5012" stopped.
+2023-03-19 13:26:19.008 +00:00 [DBG] Connection id "0HMP8FLVH5012" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:26:19.012 +00:00 [DBG] Connection 0HMP8FLVH5013 established using the following protocol: "Tls12"
+2023-03-19 13:26:19.020 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7153/api/footballTeam/1/playersofinterest/25 application/json 106
+2023-03-19 13:26:19.023 +00:00 [DBG] PUT requests are not supported
+2023-03-19 13:26:19.048 +00:00 [DBG] 1 candidate(s) found for the request path '/api/footballTeam/1/playersofinterest/25'
+2023-03-19 13:26:19.053 +00:00 [DBG] Endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.UpdatePlayerOfInterest (FootballTeamInfo.API)' with route pattern 'api/footballTeam/{footballTeamId}/playersofinterest/{playerOfInterestId}' is valid for the request path '/api/footballTeam/1/playersofinterest/25'
+2023-03-19 13:26:19.054 +00:00 [DBG] Request matched endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.UpdatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:26:19.057 +00:00 [INF] Executing endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.UpdatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:26:19.089 +00:00 [INF] Route matched with {action = "UpdatePlayerOfInterest", controller = "PlayersOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] UpdatePlayerOfInterest(Int32, Int32, FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto) on controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API).
+2023-03-19 13:26:19.092 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-19 13:26:19.095 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-19 13:26:19.096 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-19 13:26:19.098 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-19 13:26:19.098 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-19 13:26:19.100 +00:00 [DBG] Executing controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:26:19.234 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-19 13:26:19.504 +00:00 [DBG] Executed controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:26:19.509 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:26:19.511 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' using the name 'footballTeamId' in request data ...
+2023-03-19 13:26:19.513 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:26:19.515 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:26:19.515 +00:00 [DBG] Attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:26:19.517 +00:00 [DBG] Done attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:26:19.519 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:26:19.520 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' using the name 'playerOfInterestId' in request data ...
+2023-03-19 13:26:19.521 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:26:19.522 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:26:19.522 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:26:19.523 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:26:19.523 +00:00 [DBG] Attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto' ...
+2023-03-19 13:26:19.524 +00:00 [DBG] Attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto' using the name '' in request data ...
+2023-03-19 13:26:19.526 +00:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-19 13:26:19.527 +00:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-19 13:26:19.533 +00:00 [DBG] Connection id "0HMP8FLVH5013", Request id "0HMP8FLVH5013:00000002": started reading request body.
+2023-03-19 13:26:19.535 +00:00 [DBG] Connection id "0HMP8FLVH5013", Request id "0HMP8FLVH5013:00000002": done reading request body.
+2023-03-19 13:26:19.651 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto'.
+2023-03-19 13:26:19.654 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto'.
+2023-03-19 13:26:19.654 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto' ...
+2023-03-19 13:26:19.661 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto'.
+2023-03-19 13:26:20.516 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-19 13:26:20.564 +00:00 [DBG] Compiling query expression: 
+'DbSet<FootballTeam>()
+    .Any(f => f.Id == __footballTeamId_0)'
+2023-03-19 13:26:20.830 +00:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM FootballTeams AS f
+                WHERE f.Id == @__footballTeamId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        FootballTeamInfo.API.DbContexts.FootbalTeamInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-19 13:26:20.889 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:26:20.955 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (62ms).
+2023-03-19 13:26:20.973 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:20.992 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:21.007 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:26:21.031 +00:00 [INF] Executed DbCommand (29ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:26:21.043 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:26:21.050 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:21.056 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:21.061 +00:00 [DBG] Compiling query expression: 
+'DbSet<PlayerOfInterest>()
+    .Where(p => p.FootballTeamId == __footballTeamId_0 && p.Id == __playerOfInterestId_1)
+    .FirstOrDefault()'
+2023-03-19 13:26:21.106 +00:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<PlayerOfInterest>(
+    asyncEnumerable: new SingleQueryingEnumerable<PlayerOfInterest>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PlayerOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PlayerOfInterest.Description (string) Required MaxLength(200), 1], [Property: PlayerOfInterest.FootballTeamId (int) Required FK Index, 2], [Property: PlayerOfInterest.Name (string) Required MaxLength(50), 3] }
+            SELECT TOP(1) p.Id, p.Description, p.FootballTeamId, p.Name
+            FROM PlayerOfInterests AS p
+            WHERE (p.FootballTeamId == @__footballTeamId_0) && (p.Id == @__playerOfInterestId_1)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PlayerOfInterest>, 
+        FootballTeamInfo.API.DbContexts.FootbalTeamInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-19 13:26:21.119 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:26:21.120 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:26:21.122 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:21.122 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:21.123 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:26:21.125 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:26:21.127 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:26:21.127 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:21.129 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:21.134 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-19 13:26:21.137 +00:00 [DBG] No information found on request to perform content negotiation.
+2023-03-19 13:26:21.138 +00:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2023-03-19 13:26:21.140 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2023-03-19 13:26:21.140 +00:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-03-19 13:26:21.205 +00:00 [INF] Executed action FootballTeamInfo.API.Controllers.PlayersOfInterestController.UpdatePlayerOfInterest (FootballTeamInfo.API) in 2101.8804ms
+2023-03-19 13:26:21.209 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.UpdatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:26:21.210 +00:00 [DBG] Connection id "0HMP8FLVH5013" completed keep alive response.
+2023-03-19 13:26:21.215 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-19 13:26:21.219 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7153/api/footballTeam/1/playersofinterest/25 application/json 106 - 404 161 application/problem+json;+charset=utf-8 2198.6045ms
+2023-03-19 13:26:38.850 +00:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7153/api/footballTeam/1/playersofinterest/5 application/json 106
+2023-03-19 13:26:38.851 +00:00 [DBG] PUT requests are not supported
+2023-03-19 13:26:38.853 +00:00 [DBG] 1 candidate(s) found for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:26:38.855 +00:00 [DBG] Endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.UpdatePlayerOfInterest (FootballTeamInfo.API)' with route pattern 'api/footballTeam/{footballTeamId}/playersofinterest/{playerOfInterestId}' is valid for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:26:38.856 +00:00 [DBG] Request matched endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.UpdatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:26:38.857 +00:00 [INF] Executing endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.UpdatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:26:38.857 +00:00 [INF] Route matched with {action = "UpdatePlayerOfInterest", controller = "PlayersOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] UpdatePlayerOfInterest(Int32, Int32, FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto) on controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API).
+2023-03-19 13:26:38.859 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-19 13:26:38.860 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-19 13:26:38.861 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-19 13:26:38.862 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-19 13:26:38.862 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-19 13:26:38.863 +00:00 [DBG] Executing controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:26:38.869 +00:00 [DBG] Executed controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:26:38.870 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:26:38.871 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' using the name 'footballTeamId' in request data ...
+2023-03-19 13:26:38.872 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:26:38.872 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:26:38.873 +00:00 [DBG] Attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:26:38.873 +00:00 [DBG] Done attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:26:38.874 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:26:38.874 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' using the name 'playerOfInterestId' in request data ...
+2023-03-19 13:26:38.875 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:26:38.876 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:26:38.877 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:26:38.877 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:26:38.878 +00:00 [DBG] Attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto' ...
+2023-03-19 13:26:38.878 +00:00 [DBG] Attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto' using the name '' in request data ...
+2023-03-19 13:26:38.879 +00:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-19 13:26:38.880 +00:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-19 13:26:38.880 +00:00 [DBG] Connection id "0HMP8FLVH5013", Request id "0HMP8FLVH5013:00000003": started reading request body.
+2023-03-19 13:26:38.881 +00:00 [DBG] Connection id "0HMP8FLVH5013", Request id "0HMP8FLVH5013:00000003": done reading request body.
+2023-03-19 13:26:38.882 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto'.
+2023-03-19 13:26:38.882 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto'.
+2023-03-19 13:26:38.883 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto' ...
+2023-03-19 13:26:38.884 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterest' of type 'FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto'.
+2023-03-19 13:26:38.887 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-19 13:26:38.894 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:26:38.894 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:26:38.895 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:38.896 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:38.896 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:26:38.897 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:26:38.898 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:26:38.899 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:38.899 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:38.900 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:26:38.901 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:26:38.902 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:38.902 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:38.903 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:26:38.904 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:26:38.918 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:26:38.939 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:26:38.940 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:38.941 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:38.957 +00:00 [DBG] SaveChanges starting for 'FootbalTeamInfoContext'.
+2023-03-19 13:26:38.960 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-19 13:26:38.973 +00:00 [DBG] The unchanged property 'PlayerOfInterest.Description' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-03-19 13:26:38.980 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:26:38.984 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-19 13:26:39.002 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:39.004 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:39.006 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-19 13:26:39.011 +00:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-19 13:26:39.052 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:26:39.053 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-03-19 13:26:39.055 +00:00 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "PlayerOfInterests" SET "Description" = @p0
+WHERE "Id" = @p1;
+SELECT changes();
+2023-03-19 13:26:39.064 +00:00 [INF] Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "PlayerOfInterests" SET "Description" = @p0
+WHERE "Id" = @p1;
+SELECT changes();
+2023-03-19 13:26:39.071 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:26:39.077 +00:00 [DBG] Committing transaction.
+2023-03-19 13:26:39.082 +00:00 [DBG] Committed transaction.
+2023-03-19 13:26:39.086 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:39.087 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:39.091 +00:00 [DBG] Disposing transaction.
+2023-03-19 13:26:39.097 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:26:39.101 +00:00 [DBG] SaveChanges completed for 'FootbalTeamInfoContext' with 1 entities written to the database.
+2023-03-19 13:26:39.106 +00:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-03-19 13:26:39.107 +00:00 [INF] Executed action FootballTeamInfo.API.Controllers.PlayersOfInterestController.UpdatePlayerOfInterest (FootballTeamInfo.API) in 244.2604ms
+2023-03-19 13:26:39.108 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.UpdatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:26:39.109 +00:00 [DBG] Connection id "0HMP8FLVH5013" completed keep alive response.
+2023-03-19 13:26:39.109 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-19 13:26:39.110 +00:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7153/api/footballTeam/1/playersofinterest/5 application/json 106 - 204 - - 260.1498ms
+2023-03-19 13:26:49.349 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/footballTeam/1/playersofinterest/5 application/json 106
+2023-03-19 13:26:49.352 +00:00 [DBG] The request path  does not match the path filter
+2023-03-19 13:26:49.353 +00:00 [DBG] 1 candidate(s) found for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:26:49.353 +00:00 [DBG] Endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)' with route pattern 'api/footballTeam/{footballTeamId}/playersofinterest/{playerOfInterestId}' is valid for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:26:49.356 +00:00 [DBG] Request matched endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:26:49.357 +00:00 [INF] Executing endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:26:49.365 +00:00 [INF] Route matched with {action = "GetPlayerOfInterest", controller = "PlayersOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FootballTeamInfo.API.Models.PlayerOfInterestDto]] GetPlayerOfInterest(Int32, Int32) on controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API).
+2023-03-19 13:26:49.367 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-19 13:26:49.368 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-19 13:26:49.369 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-19 13:26:49.371 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-19 13:26:49.372 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-19 13:26:49.373 +00:00 [DBG] Executing controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:26:49.377 +00:00 [DBG] Executed controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:26:49.378 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:26:49.380 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' using the name 'footballTeamId' in request data ...
+2023-03-19 13:26:49.381 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:26:49.382 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:26:49.382 +00:00 [DBG] Attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:26:49.384 +00:00 [DBG] Done attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:26:49.385 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:26:49.387 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' using the name 'playerOfInterestId' in request data ...
+2023-03-19 13:26:49.389 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:26:49.392 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:26:49.395 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:26:49.396 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:26:49.439 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-19 13:26:49.444 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:26:49.445 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:26:49.445 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:49.446 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:49.447 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:26:49.448 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:26:49.449 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:26:49.450 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:49.450 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:49.451 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:26:49.452 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:26:49.453 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:49.453 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:49.454 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:26:49.456 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:26:49.457 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:26:49.458 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:26:49.459 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:26:49.460 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:26:49.464 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-19 13:26:49.466 +00:00 [DBG] No information found on request to perform content negotiation.
+2023-03-19 13:26:49.468 +00:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-19 13:26:49.469 +00:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-19 13:26:49.469 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-19 13:26:49.470 +00:00 [INF] Executing OkObjectResult, writing value of type 'FootballTeamInfo.API.Models.PlayerOfInterestDto'.
+2023-03-19 13:26:49.473 +00:00 [INF] Executed action FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API) in 100.0614ms
+2023-03-19 13:26:49.473 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:26:49.474 +00:00 [DBG] Connection id "0HMP8FLVH5013" completed keep alive response.
+2023-03-19 13:26:49.475 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-19 13:26:49.475 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/footballTeam/1/playersofinterest/5 application/json 106 - 200 99 application/json;+charset=utf-8 125.7539ms
+2023-03-19 13:26:49.476 +00:00 [DBG] Connection id "0HMP8FLVH5013", Request id "0HMP8FLVH5013:00000004": started reading request body.
+2023-03-19 13:26:49.477 +00:00 [DBG] Connection id "0HMP8FLVH5013", Request id "0HMP8FLVH5013:00000004": done reading request body.
+2023-03-19 13:43:27.303 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-19 13:43:27.397 +00:00 [DBG] Hosting starting
+2023-03-19 13:43:27.528 +00:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 39F81C24FD9DD4F1D856C07C755DF18E7AE3585C)
+2023-03-19 13:43:27.566 +00:00 [INF] Now listening on: https://localhost:7153
+2023-03-19 13:43:27.566 +00:00 [INF] Now listening on: http://localhost:5153
+2023-03-19 13:43:27.567 +00:00 [DBG] Loaded hosting startup assembly FootballTeamInfo.API
+2023-03-19 13:43:27.567 +00:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-19 13:43:27.567 +00:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-19 13:43:27.568 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-19 13:43:27.569 +00:00 [INF] Hosting environment: Development
+2023-03-19 13:43:27.569 +00:00 [INF] Content root path: C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\
+2023-03-19 13:43:27.569 +00:00 [DBG] Hosting started
+2023-03-19 13:43:27.973 +00:00 [DBG] Connection id "0HMP8FVLNLRDE" accepted.
+2023-03-19 13:43:27.975 +00:00 [DBG] Connection id "0HMP8FVLNLRDE" started.
+2023-03-19 13:43:27.976 +00:00 [DBG] Connection id "0HMP8FVLNLRDF" accepted.
+2023-03-19 13:43:27.977 +00:00 [DBG] Connection id "0HMP8FVLNLRDF" started.
+2023-03-19 13:43:27.999 +00:00 [DBG] Connection id "0HMP8FVLNLRDF" received FIN.
+2023-03-19 13:43:27.999 +00:00 [DBG] Connection id "0HMP8FVLNLRDE" received FIN.
+2023-03-19 13:43:28.016 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-19 13:43:28.016 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-19 13:43:28.057 +00:00 [DBG] Connection id "0HMP8FVLNLRDE" stopped.
+2023-03-19 13:43:28.057 +00:00 [DBG] Connection id "0HMP8FVLNLRDF" stopped.
+2023-03-19 13:43:28.061 +00:00 [DBG] Connection id "0HMP8FVLNLRDF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:43:28.061 +00:00 [DBG] Connection id "0HMP8FVLNLRDE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:43:28.239 +00:00 [DBG] Connection id "0HMP8FVLNLRDG" accepted.
+2023-03-19 13:43:28.240 +00:00 [DBG] Connection id "0HMP8FVLNLRDG" started.
+2023-03-19 13:43:28.278 +00:00 [DBG] Connection 0HMP8FVLNLRDG established using the following protocol: "Tls12"
+2023-03-19 13:43:28.342 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-03-19 13:43:28.378 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-19 13:43:28.478 +00:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-19 13:43:28.604 +00:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-19 13:43:28.606 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-03-19 13:43:28.610 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 272.8810ms
+2023-03-19 13:43:28.611 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.3171ms
+2023-03-19 13:43:29.348 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-03-19 13:43:29.472 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.9874ms
+2023-03-19 13:45:25.942 +00:00 [DBG] Connection id "0HMP8FVLNLRDH" accepted.
+2023-03-19 13:45:25.945 +00:00 [DBG] Connection id "0HMP8FVLNLRDH" received FIN.
+2023-03-19 13:45:25.948 +00:00 [DBG] Connection id "0HMP8FVLNLRDH" started.
+2023-03-19 13:45:25.952 +00:00 [DBG] Connection id "0HMP8FVLNLRDI" accepted.
+2023-03-19 13:45:25.958 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-19 13:45:25.958 +00:00 [DBG] Connection id "0HMP8FVLNLRDI" started.
+2023-03-19 13:45:25.959 +00:00 [DBG] Connection id "0HMP8FVLNLRDH" stopped.
+2023-03-19 13:45:25.960 +00:00 [DBG] Connection id "0HMP8FVLNLRDH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:45:25.965 +00:00 [DBG] Connection 0HMP8FVLNLRDI established using the following protocol: "Tls12"
+2023-03-19 13:45:25.973 +00:00 [INF] Request starting HTTP/1.1 PATCH https://localhost:7153/api/footballTeam/1/playersofinterest/5 application/json 134
+2023-03-19 13:45:25.975 +00:00 [DBG] PATCH requests are not supported
+2023-03-19 13:45:26.000 +00:00 [DBG] 1 candidate(s) found for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:45:26.004 +00:00 [DBG] Endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.PartiallyUpdatePlayerOfInterest (FootballTeamInfo.API)' with route pattern 'api/footballTeam/{footballTeamId}/playersofinterest/{playerOfInterestId}' is valid for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:45:26.006 +00:00 [DBG] Request matched endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.PartiallyUpdatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:45:26.009 +00:00 [INF] Executing endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.PartiallyUpdatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:45:26.040 +00:00 [INF] Route matched with {action = "PartiallyUpdatePlayerOfInterest", controller = "PlayersOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] PartiallyUpdatePlayerOfInterest(Int32, Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto]) on controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API).
+2023-03-19 13:45:26.043 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-19 13:45:26.044 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-19 13:45:26.046 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-19 13:45:26.048 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-19 13:45:26.049 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-19 13:45:26.050 +00:00 [DBG] Executing controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:45:26.179 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-19 13:45:26.461 +00:00 [DBG] Executed controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:45:26.470 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:45:26.475 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' using the name 'footballTeamId' in request data ...
+2023-03-19 13:45:26.478 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:45:26.479 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:45:26.480 +00:00 [DBG] Attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:45:26.483 +00:00 [DBG] Done attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:45:26.486 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:45:26.489 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' using the name 'playerOfInterestId' in request data ...
+2023-03-19 13:45:26.492 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:45:26.492 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:45:26.493 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:45:26.494 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:45:26.495 +00:00 [DBG] Attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto]' ...
+2023-03-19 13:45:26.498 +00:00 [DBG] Attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto]' using the name '' in request data ...
+2023-03-19 13:45:26.500 +00:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-19 13:45:26.501 +00:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-19 13:45:26.511 +00:00 [DBG] Connection id "0HMP8FVLNLRDI", Request id "0HMP8FVLNLRDI:00000002": started reading request body.
+2023-03-19 13:45:26.513 +00:00 [DBG] Connection id "0HMP8FVLNLRDI", Request id "0HMP8FVLNLRDI:00000002": done reading request body.
+2023-03-19 13:45:26.697 +00:00 [DBG] Done attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto]'.
+2023-03-19 13:45:26.700 +00:00 [DBG] Done attempting to bind parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto]'.
+2023-03-19 13:45:26.701 +00:00 [DBG] Attempting to validate the bound parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto]' ...
+2023-03-19 13:45:26.708 +00:00 [DBG] Done attempting to validate the bound parameter 'patchDocument' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[FootballTeamInfo.API.Models.PlayerOfInterestUpdateDto]'.
+2023-03-19 13:45:27.617 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-19 13:45:27.681 +00:00 [DBG] Compiling query expression: 
+'DbSet<FootballTeam>()
+    .Any(f => f.Id == __footballTeamId_0)'
+2023-03-19 13:45:27.963 +00:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM FootballTeams AS f
+                WHERE f.Id == @__footballTeamId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        FootballTeamInfo.API.DbContexts.FootbalTeamInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-19 13:45:28.028 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:45:28.098 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (66ms).
+2023-03-19 13:45:28.111 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:45:28.129 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:45:28.145 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:45:28.173 +00:00 [INF] Executed DbCommand (33ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:45:28.186 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:45:28.195 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:45:28.201 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:45:28.208 +00:00 [DBG] Compiling query expression: 
+'DbSet<PlayerOfInterest>()
+    .Where(p => p.FootballTeamId == __footballTeamId_0 && p.Id == __playerOfInterestId_1)
+    .FirstOrDefault()'
+2023-03-19 13:45:28.251 +00:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<PlayerOfInterest>(
+    asyncEnumerable: new SingleQueryingEnumerable<PlayerOfInterest>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PlayerOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PlayerOfInterest.Description (string) Required MaxLength(200), 1], [Property: PlayerOfInterest.FootballTeamId (int) Required FK Index, 2], [Property: PlayerOfInterest.Name (string) Required MaxLength(50), 3] }
+            SELECT TOP(1) p.Id, p.Description, p.FootballTeamId, p.Name
+            FROM PlayerOfInterests AS p
+            WHERE (p.FootballTeamId == @__footballTeamId_0) && (p.Id == @__playerOfInterestId_1)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PlayerOfInterest>, 
+        FootballTeamInfo.API.DbContexts.FootbalTeamInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-19 13:45:28.265 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:45:28.266 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:45:28.266 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:45:28.267 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:45:28.268 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:45:28.271 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:45:28.286 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:45:28.311 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:45:28.312 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:45:28.313 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:45:28.345 +00:00 [DBG] SaveChanges starting for 'FootbalTeamInfoContext'.
+2023-03-19 13:45:28.348 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-19 13:45:28.364 +00:00 [DBG] The unchanged property 'PlayerOfInterest.Description' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-03-19 13:45:28.378 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:45:28.384 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-19 13:45:28.405 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:45:28.406 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:45:28.410 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-19 13:45:28.417 +00:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-19 13:45:28.474 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:45:28.476 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-03-19 13:45:28.479 +00:00 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 51)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "PlayerOfInterests" SET "Description" = @p0
+WHERE "Id" = @p1;
+SELECT changes();
+2023-03-19 13:45:28.483 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 51)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "PlayerOfInterests" SET "Description" = @p0
+WHERE "Id" = @p1;
+SELECT changes();
+2023-03-19 13:45:28.494 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:45:28.502 +00:00 [DBG] Committing transaction.
+2023-03-19 13:45:28.512 +00:00 [DBG] Committed transaction.
+2023-03-19 13:45:28.520 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:45:28.522 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:45:28.528 +00:00 [DBG] Disposing transaction.
+2023-03-19 13:45:28.534 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:45:28.539 +00:00 [DBG] SaveChanges completed for 'FootbalTeamInfoContext' with 1 entities written to the database.
+2023-03-19 13:45:28.547 +00:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-03-19 13:45:28.553 +00:00 [INF] Executed action FootballTeamInfo.API.Controllers.PlayersOfInterestController.PartiallyUpdatePlayerOfInterest (FootballTeamInfo.API) in 2498.9958ms
+2023-03-19 13:45:28.556 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.PartiallyUpdatePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:45:28.559 +00:00 [DBG] Connection id "0HMP8FVLNLRDI" completed keep alive response.
+2023-03-19 13:45:28.565 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-19 13:45:28.570 +00:00 [INF] Request finished HTTP/1.1 PATCH https://localhost:7153/api/footballTeam/1/playersofinterest/5 application/json 134 - 204 - - 2597.0090ms
+2023-03-19 13:45:39.816 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/footballTeam/1/playersofinterest/5 application/json 134
+2023-03-19 13:45:39.817 +00:00 [DBG] The request path  does not match the path filter
+2023-03-19 13:45:39.819 +00:00 [DBG] 1 candidate(s) found for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:45:39.819 +00:00 [DBG] Endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)' with route pattern 'api/footballTeam/{footballTeamId}/playersofinterest/{playerOfInterestId}' is valid for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:45:39.821 +00:00 [DBG] Request matched endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:45:39.821 +00:00 [INF] Executing endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:45:39.824 +00:00 [INF] Route matched with {action = "GetPlayerOfInterest", controller = "PlayersOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FootballTeamInfo.API.Models.PlayerOfInterestDto]] GetPlayerOfInterest(Int32, Int32) on controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API).
+2023-03-19 13:45:39.825 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-19 13:45:39.826 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-19 13:45:39.827 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-19 13:45:39.828 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-19 13:45:39.828 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-19 13:45:39.829 +00:00 [DBG] Executing controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:45:39.838 +00:00 [DBG] Executed controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:45:39.843 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:45:39.844 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' using the name 'footballTeamId' in request data ...
+2023-03-19 13:45:39.845 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:45:39.846 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:45:39.846 +00:00 [DBG] Attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:45:39.847 +00:00 [DBG] Done attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:45:39.848 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:45:39.848 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' using the name 'playerOfInterestId' in request data ...
+2023-03-19 13:45:39.849 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:45:39.850 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:45:39.850 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:45:39.851 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:45:39.863 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-19 13:45:39.867 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:45:39.868 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:45:39.869 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:45:39.869 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:45:39.870 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:45:39.871 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:45:39.873 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:45:39.873 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:45:39.874 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:45:39.875 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:45:39.876 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:45:39.876 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:45:39.877 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:45:39.878 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:45:39.879 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:45:39.881 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:45:39.881 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:45:39.882 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:45:39.882 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:45:39.885 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-19 13:45:39.889 +00:00 [DBG] No information found on request to perform content negotiation.
+2023-03-19 13:45:39.889 +00:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-19 13:45:39.890 +00:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-19 13:45:39.891 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-03-19 13:45:39.891 +00:00 [INF] Executing OkObjectResult, writing value of type 'FootballTeamInfo.API.Models.PlayerOfInterestDto'.
+2023-03-19 13:45:39.934 +00:00 [INF] Executed action FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API) in 104.6317ms
+2023-03-19 13:45:39.936 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:45:39.937 +00:00 [DBG] Connection id "0HMP8FVLNLRDI" completed keep alive response.
+2023-03-19 13:45:39.937 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-19 13:45:39.938 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/footballTeam/1/playersofinterest/5 application/json 134 - 200 100 application/json;+charset=utf-8 121.6190ms
+2023-03-19 13:45:39.938 +00:00 [DBG] Connection id "0HMP8FVLNLRDI", Request id "0HMP8FVLNLRDI:00000003": started reading request body.
+2023-03-19 13:45:39.939 +00:00 [DBG] Connection id "0HMP8FVLNLRDI", Request id "0HMP8FVLNLRDI:00000003": done reading request body.
+2023-03-19 13:50:31.050 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-19 13:50:31.171 +00:00 [DBG] Hosting starting
+2023-03-19 13:50:31.296 +00:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 39F81C24FD9DD4F1D856C07C755DF18E7AE3585C)
+2023-03-19 13:50:31.341 +00:00 [INF] Now listening on: https://localhost:7153
+2023-03-19 13:50:31.342 +00:00 [INF] Now listening on: http://localhost:5153
+2023-03-19 13:50:31.343 +00:00 [DBG] Loaded hosting startup assembly FootballTeamInfo.API
+2023-03-19 13:50:31.343 +00:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-19 13:50:31.344 +00:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-19 13:50:31.345 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-19 13:50:31.345 +00:00 [INF] Hosting environment: Development
+2023-03-19 13:50:31.346 +00:00 [INF] Content root path: C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\
+2023-03-19 13:50:31.346 +00:00 [DBG] Hosting started
+2023-03-19 13:50:31.647 +00:00 [DBG] Connection id "0HMP8G3K04RMB" accepted.
+2023-03-19 13:50:31.649 +00:00 [DBG] Connection id "0HMP8G3K04RMB" started.
+2023-03-19 13:50:31.651 +00:00 [DBG] Connection id "0HMP8G3K04RMC" accepted.
+2023-03-19 13:50:31.652 +00:00 [DBG] Connection id "0HMP8G3K04RMC" started.
+2023-03-19 13:50:31.685 +00:00 [DBG] Connection id "0HMP8G3K04RMB" received FIN.
+2023-03-19 13:50:31.685 +00:00 [DBG] Connection id "0HMP8G3K04RMC" received FIN.
+2023-03-19 13:50:31.712 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-19 13:50:31.712 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-19 13:50:31.746 +00:00 [DBG] Connection id "0HMP8G3K04RMC" stopped.
+2023-03-19 13:50:31.746 +00:00 [DBG] Connection id "0HMP8G3K04RMB" stopped.
+2023-03-19 13:50:31.748 +00:00 [DBG] Connection id "0HMP8G3K04RMC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:50:31.748 +00:00 [DBG] Connection id "0HMP8G3K04RMB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:50:31.901 +00:00 [DBG] Connection id "0HMP8G3K04RMD" accepted.
+2023-03-19 13:50:31.905 +00:00 [DBG] Connection id "0HMP8G3K04RMD" started.
+2023-03-19 13:50:31.951 +00:00 [DBG] Connection 0HMP8G3K04RMD established using the following protocol: "Tls12"
+2023-03-19 13:50:32.005 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-03-19 13:50:32.034 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-19 13:50:32.139 +00:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-19 13:50:32.311 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-03-19 13:50:32.312 +00:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-19 13:50:32.317 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 316.1550ms
+2023-03-19 13:50:32.317 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.9183ms
+2023-03-19 13:50:33.066 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-03-19 13:50:33.192 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.0261ms
+2023-03-19 13:50:43.725 +00:00 [DBG] Connection id "0HMP8G3K04RME" accepted.
+2023-03-19 13:50:43.727 +00:00 [DBG] Connection id "0HMP8G3K04RME" started.
+2023-03-19 13:50:43.731 +00:00 [DBG] Connection id "0HMP8G3K04RMF" accepted.
+2023-03-19 13:50:43.731 +00:00 [DBG] Connection id "0HMP8G3K04RME" received FIN.
+2023-03-19 13:50:43.733 +00:00 [DBG] Connection id "0HMP8G3K04RMF" started.
+2023-03-19 13:50:43.734 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-19 13:50:43.737 +00:00 [DBG] Connection id "0HMP8G3K04RME" stopped.
+2023-03-19 13:50:43.737 +00:00 [DBG] Connection id "0HMP8G3K04RME" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-19 13:50:43.739 +00:00 [DBG] Connection 0HMP8G3K04RMF established using the following protocol: "Tls12"
+2023-03-19 13:50:43.749 +00:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7153/api/footballTeam/1/playersofinterest/5 - -
+2023-03-19 13:50:43.751 +00:00 [DBG] DELETE requests are not supported
+2023-03-19 13:50:43.775 +00:00 [DBG] 1 candidate(s) found for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:50:43.780 +00:00 [DBG] Endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.DeletePlayerOfInterest (FootballTeamInfo.API)' with route pattern 'api/footballTeam/{footballTeamId}/playersofinterest/{PlayerOfInterestId}' is valid for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:50:43.783 +00:00 [DBG] Request matched endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.DeletePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:50:43.785 +00:00 [INF] Executing endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.DeletePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:50:43.815 +00:00 [INF] Route matched with {action = "DeletePlayerOfInterest", controller = "PlayersOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeletePlayerOfInterest(Int32, Int32) on controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API).
+2023-03-19 13:50:43.818 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-19 13:50:43.819 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-19 13:50:43.821 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-19 13:50:43.823 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-19 13:50:43.823 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-19 13:50:43.825 +00:00 [DBG] Executing controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:50:43.973 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-19 13:50:44.216 +00:00 [DBG] Executed controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:50:44.223 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:50:44.226 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' using the name 'footballTeamId' in request data ...
+2023-03-19 13:50:44.227 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:50:44.228 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:50:44.230 +00:00 [DBG] Attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:50:44.234 +00:00 [DBG] Done attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:50:44.237 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:50:44.239 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' using the name 'playerOfInterestId' in request data ...
+2023-03-19 13:50:44.241 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:50:44.241 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:50:44.242 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:50:44.243 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:50:45.099 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-19 13:50:45.146 +00:00 [DBG] Compiling query expression: 
+'DbSet<FootballTeam>()
+    .Any(f => f.Id == __footballTeamId_0)'
+2023-03-19 13:50:45.448 +00:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM FootballTeams AS f
+                WHERE f.Id == @__footballTeamId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        FootballTeamInfo.API.DbContexts.FootbalTeamInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-19 13:50:45.519 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:50:45.588 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (65ms).
+2023-03-19 13:50:45.603 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:50:45.621 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:50:45.637 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:50:45.661 +00:00 [INF] Executed DbCommand (30ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:50:45.677 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:50:45.688 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:50:45.693 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:50:45.700 +00:00 [DBG] Compiling query expression: 
+'DbSet<PlayerOfInterest>()
+    .Where(p => p.FootballTeamId == __footballTeamId_0 && p.Id == __playerOfInterestId_1)
+    .FirstOrDefault()'
+2023-03-19 13:50:45.743 +00:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<PlayerOfInterest>(
+    asyncEnumerable: new SingleQueryingEnumerable<PlayerOfInterest>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PlayerOfInterest.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PlayerOfInterest.Description (string) Required MaxLength(200), 1], [Property: PlayerOfInterest.FootballTeamId (int) Required FK Index, 2], [Property: PlayerOfInterest.Name (string) Required MaxLength(50), 3] }
+            SELECT TOP(1) p.Id, p.Description, p.FootballTeamId, p.Name
+            FROM PlayerOfInterests AS p
+            WHERE (p.FootballTeamId == @__footballTeamId_0) && (p.Id == @__playerOfInterestId_1)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PlayerOfInterest>, 
+        FootballTeamInfo.API.DbContexts.FootbalTeamInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-03-19 13:50:45.758 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:50:45.760 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-03-19 13:50:45.761 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:50:45.761 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:50:45.762 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:50:45.764 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:50:45.781 +00:00 [DBG] Context 'FootbalTeamInfoContext' started tracking 'PlayerOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:50:45.804 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:50:45.807 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:50:45.808 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:50:45.822 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:50:45.833 +00:00 [DBG] SaveChanges starting for 'FootbalTeamInfoContext'.
+2023-03-19 13:50:45.837 +00:00 [DBG] DetectChanges starting for 'FootbalTeamInfoContext'.
+2023-03-19 13:50:45.856 +00:00 [DBG] DetectChanges completed for 'FootbalTeamInfoContext'.
+2023-03-19 13:50:45.876 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:50:45.877 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:50:45.881 +00:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-19 13:50:45.888 +00:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-19 13:50:45.943 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:50:45.944 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-03-19 13:50:45.948 +00:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "PlayerOfInterests"
+WHERE "Id" = @p0;
+SELECT changes();
+2023-03-19 13:50:45.951 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "PlayerOfInterests"
+WHERE "Id" = @p0;
+SELECT changes();
+2023-03-19 13:50:45.961 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:50:45.972 +00:00 [DBG] Committing transaction.
+2023-03-19 13:50:45.978 +00:00 [DBG] Committed transaction.
+2023-03-19 13:50:45.986 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:50:45.988 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:50:45.993 +00:00 [DBG] Disposing transaction.
+2023-03-19 13:50:46.000 +00:00 [DBG] An entity of type 'PlayerOfInterest' tracked by 'FootbalTeamInfoContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-19 13:50:46.003 +00:00 [DBG] SaveChanges completed for 'FootbalTeamInfoContext' with 1 entities written to the database.
+2023-03-19 13:50:46.008 +00:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-03-19 13:50:46.013 +00:00 [INF] Executed action FootballTeamInfo.API.Controllers.PlayersOfInterestController.DeletePlayerOfInterest (FootballTeamInfo.API) in 2185.195ms
+2023-03-19 13:50:46.015 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.DeletePlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:50:46.017 +00:00 [DBG] Connection id "0HMP8G3K04RMF" completed keep alive response.
+2023-03-19 13:50:46.022 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-19 13:50:46.027 +00:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7153/api/footballTeam/1/playersofinterest/5 - - - 204 - - 2277.5894ms
+2023-03-19 13:50:52.710 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:7153/api/footballTeam/1/playersofinterest/5 application/json 134
+2023-03-19 13:50:52.712 +00:00 [DBG] The request path  does not match the path filter
+2023-03-19 13:50:52.715 +00:00 [DBG] 1 candidate(s) found for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:50:52.716 +00:00 [DBG] Endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)' with route pattern 'api/footballTeam/{footballTeamId}/playersofinterest/{playerOfInterestId}' is valid for the request path '/api/footballTeam/1/playersofinterest/5'
+2023-03-19 13:50:52.718 +00:00 [DBG] Request matched endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:50:52.718 +00:00 [INF] Executing endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:50:52.724 +00:00 [INF] Route matched with {action = "GetPlayerOfInterest", controller = "PlayersOfInterest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[FootballTeamInfo.API.Models.PlayerOfInterestDto]] GetPlayerOfInterest(Int32, Int32) on controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API).
+2023-03-19 13:50:52.727 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-19 13:50:52.728 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-19 13:50:52.729 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-19 13:50:52.730 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-19 13:50:52.731 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-19 13:50:52.733 +00:00 [DBG] Executing controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:50:52.744 +00:00 [DBG] Executed controller factory for controller FootballTeamInfo.API.Controllers.PlayersOfInterestController (FootballTeamInfo.API)
+2023-03-19 13:50:52.746 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:50:52.747 +00:00 [DBG] Attempting to bind parameter 'footballTeamId' of type 'System.Int32' using the name 'footballTeamId' in request data ...
+2023-03-19 13:50:52.748 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:50:52.749 +00:00 [DBG] Done attempting to bind parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:50:52.749 +00:00 [DBG] Attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32' ...
+2023-03-19 13:50:52.750 +00:00 [DBG] Done attempting to validate the bound parameter 'footballTeamId' of type 'System.Int32'.
+2023-03-19 13:50:52.752 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:50:52.753 +00:00 [DBG] Attempting to bind parameter 'playerOfInterestId' of type 'System.Int32' using the name 'playerOfInterestId' in request data ...
+2023-03-19 13:50:52.754 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:50:52.755 +00:00 [DBG] Done attempting to bind parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:50:52.756 +00:00 [DBG] Attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32' ...
+2023-03-19 13:50:52.757 +00:00 [DBG] Done attempting to validate the bound parameter 'playerOfInterestId' of type 'System.Int32'.
+2023-03-19 13:50:52.761 +00:00 [INF] Entity Framework Core 6.0.0 initialized 'FootbalTeamInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-19 13:50:52.769 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:50:52.771 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-03-19 13:50:52.771 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:50:52.772 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:50:52.773 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:50:52.774 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "FootballTeams" AS "f"
+    WHERE "f"."Id" = @__footballTeamId_0)
+2023-03-19 13:50:52.776 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:50:52.777 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:50:52.777 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:50:52.778 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-19 13:50:52.779 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-19 13:50:52.780 +00:00 [DBG] Opening connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:50:52.781 +00:00 [DBG] Opened connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:50:52.782 +00:00 [DBG] Executing DbCommand [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:50:52.783 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__footballTeamId_0='?' (DbType = Int32), @__playerOfInterestId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."FootballTeamId", "p"."Name"
+FROM "PlayerOfInterests" AS "p"
+WHERE ("p"."FootballTeamId" = @__footballTeamId_0) AND ("p"."Id" = @__playerOfInterestId_1)
+LIMIT 1
+2023-03-19 13:50:52.784 +00:00 [DBG] A data reader was disposed.
+2023-03-19 13:50:52.784 +00:00 [DBG] Closing connection to database 'main' on server 'C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\FottballTeamInfo.db'.
+2023-03-19 13:50:52.785 +00:00 [DBG] Closed connection to database 'main' on server 'FottballTeamInfo.db'.
+2023-03-19 13:50:52.788 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-19 13:50:52.792 +00:00 [DBG] No information found on request to perform content negotiation.
+2023-03-19 13:50:52.793 +00:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2023-03-19 13:50:52.795 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2023-03-19 13:50:52.796 +00:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-03-19 13:50:52.947 +00:00 [INF] Executed action FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API) in 214.9415ms
+2023-03-19 13:50:52.949 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.PlayersOfInterestController.GetPlayerOfInterest (FootballTeamInfo.API)'
+2023-03-19 13:50:52.950 +00:00 [DBG] Connection id "0HMP8G3K04RMF" completed keep alive response.
+2023-03-19 13:50:52.953 +00:00 [DBG] 'FootbalTeamInfoContext' disposed.
+2023-03-19 13:50:52.954 +00:00 [INF] Request finished HTTP/1.1 GET https://localhost:7153/api/footballTeam/1/playersofinterest/5 application/json 134 - 404 161 application/problem+json;+charset=utf-8 243.8985ms
+2023-03-19 13:50:52.955 +00:00 [DBG] Connection id "0HMP8G3K04RMF", Request id "0HMP8G3K04RMF:00000003": started reading request body.
+2023-03-19 13:50:52.956 +00:00 [DBG] Connection id "0HMP8G3K04RMF", Request id "0HMP8G3K04RMF:00000003": done reading request body.
