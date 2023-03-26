@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xR4YeeVlq12iDVQjoWPa8b9bAuE1uLPpgsci9TJB6cAbDCGZKw1E9ZnjscHBliS/tRq0DjnqJeZ/OuIFh+5/kw==",
+  "dgSpecHash": "JUFDr/ryzCgXdYbBQnixFIAmZh7H95vEE97oDhsbIWsWLhmMyZVEkUbiAteD2CeCMLtY91H+qhy+izOejTn5CA==",
   "success": true,
   "projectFilePath": "C:\\Users\\EruAk\\source\\repos\\FootballTeamInfo\\FootballTeamInfo.API\\FootballTeamInfo.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\EruAk\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.4\\microsoft.aspnetcore.jsonpatch.7.0.4.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.1\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.1.nupkg.sha512",
+    "C:\\Users\\EruAk\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
     "C:\\Users\\EruAk\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",

@@ -8,8 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FootballTeamInfo.API.Controllers
 {
-    [Route("api/footballTeam/{footballTeamId}/playersofinterest")]
+    [Route("api/v{version:apiVersion}/footballTeam/{footballTeamId}/playersofinterest")]
     [Authorize(Policy = "MustSupportArsenal")]
+    [ApiVersion("2.0")]
     [ApiController]
     public class PlayersOfInterestController : ControllerBase
     {
@@ -18,18 +19,18 @@ namespace FootballTeamInfo.API.Controllers
         private readonly IFootballTeamInfoRepository _footballTeamInfoRepository;
         private readonly IMapper _mapper;
 
-        public PlayersOfInterestController(ILogger<PlayersOfInterestController> logger, 
-            IMailService mailService, 
+        public PlayersOfInterestController(ILogger<PlayersOfInterestController> logger,
+            IMailService mailService,
             IFootballTeamInfoRepository footballTeamInfoRepository,
             IMapper mapper)
         {
-            _logger = logger ?? 
+            _logger = logger ??
                 throw new ArgumentNullException(nameof(logger));
-            _mailService = mailService ?? 
+            _mailService = mailService ??
                 throw new ArgumentNullException(nameof(mailService));
-            _footballTeamInfoRepository = footballTeamInfoRepository ?? 
+            _footballTeamInfoRepository = footballTeamInfoRepository ??
                 throw new ArgumentNullException(nameof(footballTeamInfoRepository));
-            _mapper = mapper ?? 
+            _mapper = mapper ??
                 throw new ArgumentNullException(nameof(mapper));
         }
 
@@ -38,7 +39,7 @@ namespace FootballTeamInfo.API.Controllers
         {
             var footballTeam = User.Claims.FirstOrDefault(f => f.Type == "footballTeam")?.Value;
 
-            if(!await _footballTeamInfoRepository.FotballTeamMatchesFootballTeamId(footballTeam, footballTeamId))
+            if (!await _footballTeamInfoRepository.FotballTeamMatchesFootballTeamId(footballTeam, footballTeamId))
             {
                 return Forbid();
             }
@@ -50,7 +51,7 @@ namespace FootballTeamInfo.API.Controllers
             }
             var playersOfinterestForFootballTeam = await _footballTeamInfoRepository.GetPlayersOfInterestAsync(footballTeamId);
 
-            return Ok(_mapper.Map<IEnumerable<PlayerOfInterestDto>> (playersOfinterestForFootballTeam));
+            return Ok(_mapper.Map<IEnumerable<PlayerOfInterestDto>>(playersOfinterestForFootballTeam));
         }
 
         [HttpGet("{playerOfInterestId}", Name = "GetPlayerOfInterest")]
@@ -99,7 +100,7 @@ namespace FootballTeamInfo.API.Controllers
             await _footballTeamInfoRepository.SaveChangesAsync();
 
             var createdPlayerOfinterest = _mapper.Map<PlayerOfInterestDto>(finalPlayerOfInterest);
- 
+
             return CreatedAtRoute("GetPlayerOfInterest",
                 new
                 {

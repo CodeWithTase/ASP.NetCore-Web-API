@@ -9,7 +9,8 @@ namespace FootballTeamInfo.API.Controllers
 {
     [ApiController]
     [Authorize]
-    [Route("api/footballteams")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/footballteams")]
     public class FootballTeamController : ControllerBase
     {
         private readonly IFootballTeamInfoRepository _footballTeamInfoRepository;
@@ -40,7 +41,18 @@ namespace FootballTeamInfo.API.Controllers
             return Ok(_mapper.Map<IEnumerable<FootballTeamsWithoutPlayersOfInterestDto>>(footbalTeams));
         }
 
+        /// <summary>
+        /// Get football team by Id
+        /// </summary>
+        /// <param name="id">The id of the football team to get</param>
+        /// <param name="includePlayersOfInterest">Whether or not to include the players of interest</param>
+        /// <returns>An IActionResult</returns>
+        /// <response code="200">Returns requested football team</response>
+
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> GetFootballTeam(int id, bool includePlayersOfInterest = false)
         {
             var footballTeam = await _footballTeamInfoRepository.GetFootballTeamAsync(id, includePlayersOfInterest);

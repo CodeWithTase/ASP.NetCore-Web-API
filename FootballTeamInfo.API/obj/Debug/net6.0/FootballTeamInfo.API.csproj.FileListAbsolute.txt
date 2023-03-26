@@ -76,3 +76,5 @@ C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\bin\Debug\net6
 C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\bin\Debug\net6.0\FootballTeamInfo.API.xml
