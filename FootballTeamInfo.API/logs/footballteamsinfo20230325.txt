@@ -1,0 +1,81 @@
+2023-03-25 08:05:08.146 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-25 08:05:08.263 +00:00 [DBG] Hosting starting
+2023-03-25 08:05:08.425 +00:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 39F81C24FD9DD4F1D856C07C755DF18E7AE3585C)
+2023-03-25 08:05:08.468 +00:00 [INF] Now listening on: https://localhost:7153
+2023-03-25 08:05:08.469 +00:00 [INF] Now listening on: http://localhost:5153
+2023-03-25 08:05:08.469 +00:00 [DBG] Loaded hosting startup assembly FootballTeamInfo.API
+2023-03-25 08:05:08.470 +00:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-25 08:05:08.470 +00:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-25 08:05:08.471 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-25 08:05:08.471 +00:00 [INF] Hosting environment: Development
+2023-03-25 08:05:08.472 +00:00 [INF] Content root path: C:\Users\EruAk\source\repos\FootballTeamInfo\FootballTeamInfo.API\
+2023-03-25 08:05:08.472 +00:00 [DBG] Hosting started
+2023-03-25 08:05:08.730 +00:00 [DBG] Connection id "0HMPD0UJALAR1" accepted.
+2023-03-25 08:05:08.732 +00:00 [DBG] Connection id "0HMPD0UJALAR1" started.
+2023-03-25 08:05:08.732 +00:00 [DBG] Connection id "0HMPD0UJALAR2" accepted.
+2023-03-25 08:05:08.734 +00:00 [DBG] Connection id "0HMPD0UJALAR2" started.
+2023-03-25 08:05:08.937 +00:00 [DBG] Connection id "0HMPD0UJALAR3" accepted.
+2023-03-25 08:05:08.938 +00:00 [DBG] Connection id "0HMPD0UJALAR3" started.
+2023-03-25 08:05:08.978 +00:00 [DBG] Connection 0HMPD0UJALAR3 established using the following protocol: "Tls12"
+2023-03-25 08:05:09.018 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2023-03-25 08:05:09.045 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-25 08:05:09.123 +00:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-25 08:05:09.284 +00:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-25 08:05:09.285 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2023-03-25 08:05:09.289 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 272.9578ms
+2023-03-25 08:05:09.289 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.5589ms
+2023-03-25 08:05:09.896 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2023-03-25 08:05:10.019 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.0801ms
+2023-03-25 08:05:18.809 +00:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-03-25 08:05:18.809 +00:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-03-25 08:05:18.813 +00:00 [DBG] Connection id "0HMPD0UJALAR1" stopped.
+2023-03-25 08:05:18.813 +00:00 [DBG] Connection id "0HMPD0UJALAR2" stopped.
+2023-03-25 08:05:18.814 +00:00 [DBG] Connection id "0HMPD0UJALAR2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-25 08:05:18.814 +00:00 [DBG] Connection id "0HMPD0UJALAR1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-25 08:05:21.024 +00:00 [DBG] Connection id "0HMPD0UJALAR4" accepted.
+2023-03-25 08:05:21.024 +00:00 [DBG] Connection id "0HMPD0UJALAR4" received FIN.
+2023-03-25 08:05:21.024 +00:00 [DBG] Connection id "0HMPD0UJALAR4" started.
+2023-03-25 08:05:21.024 +00:00 [DBG] Connection id "0HMPD0UJALAR5" accepted.
+2023-03-25 08:05:21.026 +00:00 [DBG] Connection id "0HMPD0UJALAR5" started.
+2023-03-25 08:05:21.026 +00:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-25 08:05:21.029 +00:00 [DBG] Connection 0HMPD0UJALAR5 established using the following protocol: "Tls12"
+2023-03-25 08:05:21.100 +00:00 [DBG] Connection id "0HMPD0UJALAR4" stopped.
+2023-03-25 08:05:21.101 +00:00 [DBG] Connection id "0HMPD0UJALAR4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-25 08:05:21.107 +00:00 [INF] Request starting HTTP/1.1 POST https://localhost:7153/api/authentication/authenticate application/json 72
+2023-03-25 08:05:21.108 +00:00 [DBG] POST requests are not supported
+2023-03-25 08:05:21.128 +00:00 [DBG] 1 candidate(s) found for the request path '/api/authentication/authenticate'
+2023-03-25 08:05:21.132 +00:00 [DBG] Endpoint 'FootballTeamInfo.API.Controllers.AuthenticationController.Authenticate (FootballTeamInfo.API)' with route pattern 'api/authentication/authenticate' is valid for the request path '/api/authentication/authenticate'
+2023-03-25 08:05:21.133 +00:00 [DBG] Request matched endpoint 'FootballTeamInfo.API.Controllers.AuthenticationController.Authenticate (FootballTeamInfo.API)'
+2023-03-25 08:05:21.135 +00:00 [INF] Executing endpoint 'FootballTeamInfo.API.Controllers.AuthenticationController.Authenticate (FootballTeamInfo.API)'
+2023-03-25 08:05:21.151 +00:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationRequestBody) on controller FootballTeamInfo.API.Controllers.AuthenticationController (FootballTeamInfo.API).
+2023-03-25 08:05:21.153 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-25 08:05:21.154 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-25 08:05:21.155 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-25 08:05:21.155 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-25 08:05:21.156 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-25 08:05:21.157 +00:00 [DBG] Executing controller factory for controller FootballTeamInfo.API.Controllers.AuthenticationController (FootballTeamInfo.API)
+2023-03-25 08:05:21.158 +00:00 [DBG] Executed controller factory for controller FootballTeamInfo.API.Controllers.AuthenticationController (FootballTeamInfo.API)
+2023-03-25 08:05:21.162 +00:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'FootballTeamInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2023-03-25 08:05:21.164 +00:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'FootballTeamInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' using the name '' in request data ...
+2023-03-25 08:05:21.165 +00:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2023-03-25 08:05:21.165 +00:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2023-03-25 08:05:21.173 +00:00 [DBG] Connection id "0HMPD0UJALAR5", Request id "0HMPD0UJALAR5:00000002": started reading request body.
+2023-03-25 08:05:21.174 +00:00 [DBG] Connection id "0HMPD0UJALAR5", Request id "0HMPD0UJALAR5:00000002": done reading request body.
+2023-03-25 08:05:21.309 +00:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'FootballTeamInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-03-25 08:05:21.310 +00:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'FootballTeamInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-03-25 08:05:21.312 +00:00 [DBG] Attempting to validate the bound parameter 'authenticationRequestBody' of type 'FootballTeamInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2023-03-25 08:05:21.318 +00:00 [DBG] Done attempting to validate the bound parameter 'authenticationRequestBody' of type 'FootballTeamInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2023-03-25 08:05:21.464 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-03-25 08:05:21.474 +00:00 [DBG] No information found on request to perform content negotiation.
+2023-03-25 08:05:21.474 +00:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-03-25 08:05:21.475 +00:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-03-25 08:05:21.475 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-03-25 08:05:21.476 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-03-25 08:05:21.481 +00:00 [INF] Executed action FootballTeamInfo.API.Controllers.AuthenticationController.Authenticate (FootballTeamInfo.API) in 321.401ms
+2023-03-25 08:05:21.483 +00:00 [INF] Executed endpoint 'FootballTeamInfo.API.Controllers.AuthenticationController.Authenticate (FootballTeamInfo.API)'
+2023-03-25 08:05:21.484 +00:00 [DBG] Connection id "0HMPD0UJALAR5" completed keep alive response.
+2023-03-25 08:05:21.485 +00:00 [INF] Request finished HTTP/1.1 POST https://localhost:7153/api/authentication/authenticate application/json 72 - 200 - text/plain;+charset=utf-8 378.0214ms

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FootballTeamInfo.API</name>
+    </assembly>
+    <members>
+        <member name="M:FootballTeamInfo.API.Controllers.FootballTeamController.GetFootballTeam(System.Int32,System.Boolean)">
+            <summary>
+            Get football team by Id
+            </summary>
+            <param name="id">The id of the football team to get</param>
+            <param name="includePlayersOfInterest">Whether or not to include the players of interest</param>
+            <returns>An IActionResult</returns>
+            <response code="200">Returns requested football team</response>
+        </member>
+        <member name="T:FootballTeamInfo.API.Models.FootballTeamsWithoutPlayersOfInterestDto">
+            <summary>
+            A DTO for a city without points of interest
+            </summary>
+        </member>
+        <member name="P:FootballTeamInfo.API.Models.FootballTeamsWithoutPlayersOfInterestDto.ID">
+            <summary>
+            The id of the football team
+            </summary>
+        </member>
+        <member name="P:FootballTeamInfo.API.Models.FootballTeamsWithoutPlayersOfInterestDto.Name">
+            <summary>
+            the name of the football team
+            </summary>
+        </member>
+        <member name="P:FootballTeamInfo.API.Models.FootballTeamsWithoutPlayersOfInterestDto.Description">
+            <summary>
+            the description of the football team
+            </summary>
+        </member>
+    </members>
+</doc>
