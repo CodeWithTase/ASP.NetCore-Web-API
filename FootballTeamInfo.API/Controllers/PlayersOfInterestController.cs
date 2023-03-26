@@ -2,12 +2,14 @@
 using FootballTeamInfo.API.Entities;
 using FootballTeamInfo.API.Models;
 using FootballTeamInfo.API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FootballTeamInfo.API.Controllers
 {
     [Route("api/footballTeam/{footballTeamId}/playersofinterest")]
+    [Authorize(Policy = "MustSupportArsenal")]
     [ApiController]
     public class PlayersOfInterestController : ControllerBase
     {
@@ -34,6 +36,13 @@ namespace FootballTeamInfo.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PlayerOfInterestDto>>> GetPlayersOfInterest(int footballTeamId)
         {
+            var footballTeam = User.Claims.FirstOrDefault(f => f.Type == "footballTeam")?.Value;
+
+            if(!await _footballTeamInfoRepository.FotballTeamMatchesFootballTeamId(footballTeam, footballTeamId))
+            {
+                return Forbid();
+            }
+
             if (!await _footballTeamInfoRepository.FootballTeamExistsAsync(footballTeamId))
             {
                 _logger.LogInformation($"The football team with Id {footballTeamId} was not found");

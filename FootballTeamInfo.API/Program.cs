@@ -3,7 +3,9 @@ using FootballTeamInfo.API.DbContexts;
 using FootballTeamInfo.API.Services;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
+using System.Text;
 
 Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo.Console()
     .WriteTo.File("logs/footballteamsinfo.txt", rollingInterval: RollingInterval.Day)
@@ -24,6 +26,31 @@ builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 
 //Add auotmapper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+//configure bearer token
+builder.Services.AddAuthentication("Bearer").AddJwtBearer(
+    options => 
+    {
+        options.TokenValidationParameters = new()
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Authentication:Issuer"],
+            ValidAudience = builder.Configuration["Authentication:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["Authentication:SecretForKey"]))
+        };
+    });
+
+//configure authorization policy
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("MustSupportArsenal", policy =>
+    {
+        policy.RequireAuthenticatedUser();
+        policy.RequireClaim("footballTeam", "Arsenal");
+    });
+});
 
 //Add database context
 builder.Services.AddDbContext<FootbalTeamInfoContext>(
@@ -55,6 +82,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

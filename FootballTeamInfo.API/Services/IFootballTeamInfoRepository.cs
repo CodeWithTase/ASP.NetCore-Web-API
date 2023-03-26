@@ -10,7 +10,10 @@ namespace FootballTeamInfo.API.Services
         Task<PlayerOfInterest?> GetPlayerOfInterestAsync(int footballTeamId, int playerOfInterestId);
         Task<bool> FootballTeamExistsAsync(int footballTeamId);
         Task AddPlayerOfInterestForFootballTeamAsync(int footballTeamId, PlayerOfInterest playerOfInterest);
-        Task<bool> SaveChangesAsync();
         void DeletPlayerOfInterest(PlayerOfInterest playerOfInterest);
+        Task<(IEnumerable<FootballTeam>, PaginationMetadata)> GetFootballTeamsAsync(
+            string? name, string? searchQuery, int pageNumber, int pageSize);
+        Task<bool> FotballTeamMatchesFootballTeamId(string? footballTeam, int footballteamId);
+        Task<bool> SaveChangesAsync();
     }
 }
